@@ -4,6 +4,7 @@
     --lightGray: #f0efef;
     --darkGray: #555555;
     --primaryFont: 'Open Sans', sans-serif;
+    --white: #fff;
 }
 
 *, ::after, ::before {
@@ -149,6 +150,14 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     color: var(--black);
+}
+
+.create__acc {
+    display: none;
+}
+
+.sign__in {
+    display: none;
 }
 
 .banner img{
@@ -459,14 +468,9 @@ section {
     .header__right .account {
         display: none;
     }
-    .prod__info .search__prod {
-        position: absolute;
-        left: 50px;
-        top: 200px;
-        display: none;
-    }
-    .prod__info .cart {
-        display: none;
+    .prod__info .search__prod,
+    .prod__info .cart{
+        display: none; 
     }
     main {
         margin: 50px 0px 0px 0px;
@@ -477,14 +481,17 @@ section {
         left: -100%;
         width: 100%;
         height: 100%;
-        z-index: 999;
+        z-index: 999999;
         margin: 0;
-        background-color: var(--lightGray);
+        background-color: white;
     }
     .nav__active {
         left: 0;
         top: 55px;
         transition: 0.7s all ease;
+    }
+    .nav__item__active {
+        display: block;
     }
     .mobile__res__active {
         position: absolute;
@@ -501,7 +508,6 @@ section {
     .nav .nav__links li {
         margin: 30px 0px;
     }
-    
     .feat__coll .feat__title,
     .shop .shop__title {
         display: flex;
@@ -539,7 +545,10 @@ section {
 }
 
 @media only screen and (max-width: 1000px) {
-
+    section {
+        width: 90%;
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 1020px) {
