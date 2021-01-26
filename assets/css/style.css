@@ -96,6 +96,13 @@ section {
     padding: 10px;
     background-color: var(--lightGray);
     margin: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prod__info .search__prod img {
+    margin: 0px 5px 0px 0px;
 }
 
 .search__prod input {
@@ -124,6 +131,13 @@ section {
     font-weight: 600;
     font-family: var(--primaryFont);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart button img {
+    margin: 0px 5px 0px 0px;
 }
 
 .nav {
