@@ -12,7 +12,7 @@ const navDropDownActive = () => {
     navMen.addEventListener("mouseover", () => {
         navMenDropDown.classList.add("dropDown__active")
     });
-    nav Men.addEventListener("mouseout", () => {
+    navMen.addEventListener("mouseout", () => {
         navMenDropDown.classList.remove("dropDown__active");
     });
     navWomen.addEventListener("mouseover", () => {
