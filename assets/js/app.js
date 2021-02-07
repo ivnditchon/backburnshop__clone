@@ -34,6 +34,22 @@ const navDropDownActive = () => {
         navContactDropDown.classList.remove("dropDown__active");
     }); 
 };
+
+// Slider 
+let slideIndex = 0;
+const carousel = () => {
+    var i;
+    var slides = document.getElementsByClassName("banner__slide");
+    for (i = 0; i < slides.length; i++) { 
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+         slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
 // Toggle hamburger menu
 const toggleMenu = () => {
     const menu = document.querySelector('#menu');
@@ -64,6 +80,7 @@ function changeNavIcon(){
 
 const myFunctions = () => {
     navDropDownActive();
+    carousel();
     toggleMenu();
 };
 
