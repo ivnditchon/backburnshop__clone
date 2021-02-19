@@ -642,6 +642,9 @@ section {
     .footer__copyright .footer__copyright__center {
         margin: 25px 0px;
     }
+    .btnScroll {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 760px) and (max-width: 1000px) {
