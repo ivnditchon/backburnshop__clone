@@ -61,28 +61,28 @@
                                 <input type="text" name="search" placeholder="Search all products...">
                             </div>
                         </div>
-                        <ul class="nav__links">
+                        <ul class="nav__links" id="nav__links">
                             <li class="nav__item">
                                 <a href="#">home</a>
                             </li>
                             <li class="nav__item" id="nav__item__men">
                                 <a href="#">
-                                    <span>men</span>
+                                    <span id="ct">men</span>
                                     <i class="fas fa-caret-down" id="caret"></i>
                                     <ul class="men__dropDown" id="men__dropDown">
-                                        <li>
+                                        <li id="men__item">
                                             <a href="#">beachwear</a>
                                         </li>
-                                        <li>
+                                        <li id="men__item">
                                             <a href="#">runner</a>
                                         </li>
-                                        <li>
+                                        <li id="men__item">
                                             <a href="#">shorts</a>
                                         </li>
-                                        <li>
+                                        <li id="men__item">
                                             <a href="#">topwear</a>
                                         </li>
-                                        <li>
+                                        <li id="men__item">
                                             <a href="#">shorts</a>
                                         </li>
                                     </ul>
@@ -90,7 +90,7 @@
                             </li>
                             <li class="nav__item" id="nav__item__women">
                                 <a href="#">
-                                    <span>women</span> 
+                                    <span id="ct">women</span> 
                                     <i class="fas fa-caret-down" id="caret"></i>
                                     <ul class="women__dropDown" id="women__dropDown">
                                         <li>
@@ -116,7 +116,7 @@
                             </li>
                             <li class="nav__item" id="nav__item__onSale">
                                 <a href="#">
-                                    <span>on sale</span>
+                                    <span id="ct">on sale</span>
                                     <i class="fas fa-caret-down" id="caret"></i>
                                     <ul class="onSale__dropDown" id="onSale__dropDown">
                                         <li>
@@ -130,7 +130,7 @@
                             </li>
                             <li class="nav__item" id="nav__item__contact">
                                 <a href="#">
-                                    <span>contact us</span>
+                                    <span id="ct">contact us</span>
                                     <i class="fas fa-caret-down" id="caret"></i>
                                     <ul class="contact__dropDown" id="contact__dropDown">
                                            <li>
@@ -377,6 +377,9 @@
                     </div>
                 </div>
             </section>
+            <div class="btnScroll" id="btn__scroll">
+                <button>Back to top</button>
+            </div>
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

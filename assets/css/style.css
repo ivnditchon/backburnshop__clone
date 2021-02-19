@@ -180,6 +180,15 @@ section {
     display: block;
 }
 
+.nav__item .caret__dropDown__active {
+    display: block;
+    position: relative;
+}
+
+.nav__item .caret__dropDown__active li {
+    padding: 0px;
+    margin: 0px;
+}
 
 .nav .search__container {
     display: none;
@@ -469,6 +478,29 @@ section {
     font-size: 18px;
     font-family: var(--primaryFont);
     color: var(--darkGray);
+}
+
+.btnScroll {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.btnScroll button {
+    padding: 20px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--black);
+    outline: none;
+    box-shadow: 5px 5px 5px var(--darkGray);
+    border: 1px solid var(--black);
+    cursor: pointer;
+    font-size: 15px;
+    font-family: var(--primaryFont);
+    color: var(--white);
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 720px) {

@@ -1,4 +1,5 @@
 {
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 13
+    "editor.fontFamily": "Fira Code Medium",
+    "editor.fontSize": 12,
+    "editor.accessibilityPageSize": 5
 }
