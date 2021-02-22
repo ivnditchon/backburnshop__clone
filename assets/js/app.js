@@ -149,7 +149,6 @@ function navToggle() {
             if (Array.prototype.indexOf.call(caret, caret[n]) === 0) {
                 caret[n].addEventListener('click', function() {
                     navMen.classList.toggle('caret__dropDown__active');
-                    navMen.classList.toggle('caret__dropDown__active li');
                 });
             }
             if (Array.prototype.indexOf.call(caret, caret[n]) === 1) {
@@ -168,6 +167,9 @@ function navToggle() {
                 });
             }
         }
+    }
+    else {
+        location.reload();
     }
 }
 
@@ -189,11 +191,20 @@ function scrollTop() {
     });
 }
 
+function resizeWindow() {
+    window.onresize = function() {
+        setTimeout(function() {
+            location.reload();
+        }, 3000);
+    };
+}
+
 function myFunctions() {
     navDropDownActive();
     carousel();
     toggleMenu();
     scrollTop();
+    resizeWindow();
 };
 
 myFunctions();
