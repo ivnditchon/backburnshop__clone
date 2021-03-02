@@ -156,18 +156,11 @@ function scrollTop() {
     });
 }
 
-function resizeWindow() {
-    window.onresize = function() {
-        location.reload();
-    }
-}
-
 function myFunctions() {
     navDropDownActive();
     carousel();
     toggleMenu();
     scrollTop();
-    resizeWindow();
 };
 
 myFunctions();
