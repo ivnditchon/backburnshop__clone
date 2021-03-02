@@ -10,15 +10,8 @@ function scrollTop() {
     });
 }
 
-function resizeWindow() {
-    window.onresize = function() {
-        location.reload();
-    }
-}
-
 function myFunctions() {
     scrollTop();
-    resizeWindow();
 };
 
 myFunctions();
