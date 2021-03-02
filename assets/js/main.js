@@ -1,40 +1,5 @@
 // Nav items dropdown
 const navDropDownActive = () => {
-    /*
-    const navMen = document.querySelector('#nav__item__men');
-    const navMenDropDown = document.querySelector('#men__dropDown');
-    const navWomen = document.querySelector('#nav__item__women');
-    const navWomenDropDown = document.querySelector('#women__dropDown');
-    const navOnSale = document.querySelector('#nav__item__onSale');
-    const navOnSaleDropDown = document.querySelector('#onSale__dropDown');
-    const navContact = document.querySelector('#nav__item__contact');
-    const navContactDropDown = document.querySelector('#contact__dropDown');
-
-    navMen.addEventListener("mouseover", () => {
-        navMenDropDown.classList.add("dropDown__active")
-    });
-    navMen.addEventListener("mouseout", () => {
-        navMenDropDown.classList.remove("dropDown__active");
-    });
-    navWomen.addEventListener("mouseover", () => {
-        navWomenDropDown.classList.add("dropDown__active");
-    });
-    navWomen.addEventListener("mouseout", () => {
-        navWomenDropDown.classList.remove("dropDown__active");
-    });
-    navOnSale.addEventListener("mouseover", () => {
-        navOnSaleDropDown.classList.add("dropDown__active");
-    });
-    navOnSale.addEventListener("mouseout", () => {
-        navOnSaleDropDown.classList.remove("dropDown__active");
-    });
-    navContact.addEventListener("mouseover", () => { 
-        navContactDropDown.classList.add("dropDown__active");
-    });
-    navContact.addEventListener("mouseout", () => { 
-        navContactDropDown.classList.remove("dropDown__active");
-    });  
-    */
     const navLinks = document.getElementById('nav__links');
     const childNodes = navLinks.childNodes;
     const navMen = document.getElementById('men__dropDown'); // Men dropdown list
@@ -193,10 +158,8 @@ function scrollTop() {
 
 function resizeWindow() {
     window.onresize = function() {
-        setTimeout(function() {
-            location.reload();
-        }, 3000);
-    };
+        location.reload();
+    }
 }
 
 function myFunctions() {

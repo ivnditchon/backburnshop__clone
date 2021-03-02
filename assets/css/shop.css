@@ -219,170 +219,248 @@ section {
     display: none;
 }
 
-.banner img{
-    width: 100%;
-    height: auto;
+.mens__pat, .womens__pat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 0px;
 }
 
-.feat__coll {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    padding: 50px 0px;
+.mens__pat a,
+.womens__pat a {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--black);
 }
 
-.feat__coll .feat__title {
+.mens__pat img,
+.womens__pat img {
+    margin: 0px 10px;
+}
+
+.mens__pat span,
+.womens__pat span {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--black);
+}
+/* Men's shirt and Women's boardshort */
+.men__shirt__container,
+.women__boardshort__container {
+    display: flex;
+    padding: 15px 0px;
+    margin: 20px 0px;
+}
+
+.men__shirt__container .men__shirt__categ,
+.women__boardshort__container .women__boardshort__categ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.men__shirt__categ .categ__title,
+.women__boardshort__categ .categ__title {
+    padding: 15px 0px;
+}
+
+.men__shirt__categ .categ__title h3,
+.women__boardshort__categ .categ__title h3 {
+    font-size: 20px;
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.men__shirt__categ .categ__items,
+.women__boardshort__categ .categ__items {
+    list-style: none;
+}
+
+.categ__items .categ__item {
+    padding: 5px 0px;
+}
+
+.categ__items .categ__item a {
+    font-size: 14px;
+    font-family: var(--primaryFont);
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.men__shirt__container .mens__shirt__desc,
+.women__boardshort__container .womens__boardshort__desc {
+    flex: 2;
+}
+
+.mens__shirt__desc .desc__header,
+.womens__boardshort__desc .desc__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.feat__title .feat__left__text h2 {
+.desc__header .desc__header__left h2 {
     font-size: 25px;
     font-family: var(--primaryFont);
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.feat__title .feat__right__text a {
+.desc__header .desc__header__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.desc__header__right .desc__right {
+    display: flex;
+}
+
+.desc__header__right .filter {
+    display: none;
+}
+
+.desc__header__right .filter button {
+    padding: 7px 15px;
+    font-size: 13px;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--black);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.desc__header__right .sort__item {
+    display: flex;
+    padding: 7px 5px;
+    margin: 0px 40px 0px 0px;
+}
+
+.desc__header__right .sort__item a {
     font-size: 15px;
     font-family: var(--primaryFont);
-    font-weight: 500;
     text-decoration: none;
     color: var(--black);
 }
 
-.feat__coll__items {
-    display: inline-block;
-    width: 100%;
-    height: auto;
+.desc__header .feat select {
+    border: none;
+    font-size: 15px;
+    font-family: var(--primaryFont);
+    padding: 6px 0px;
+    cursor: pointer;
 }
-
-.feat__coll__items .feat__coll__item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.feat__coll__items .feat__coll__items__container {
+/* Men and Women items */
+.men__shirt__container .men__items__container,
+.women__boardshort__container .women__items__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     padding: 30px 0px;
+    margin: 30px 10px;
 }
 
-.feat__coll__items .feat__coll__items__container a {
+
+.men__items__container .men__items a,
+.women__boardshort__container .women__items a {
     color: var(--black);
     text-decoration: none;
 }
 
-.feat__coll__item .feat__item__image {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+.men__items .men__item__image,
+.women__items .women__item__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.feat__coll__item .feat__item__image img {
-    object-fit: contain;
+.men__items .men__item__overlay,
+.women__items .women__item__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+    background-color: var(--lightGray);
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.men__items .men__item__image:hover .men__item__overlay,
+.women__items .women__item__image:hover .women__item__overlay {
+    opacity: 0.1;
+}
+
+.men__items .men__item__image img,
+.women__items .women__item__image img { 
     height: 250px;
-    width: 100%;
-    max-width: 100%;
+    object-fit: fill;
 }
 
-.feat__coll__item .feat__item__name,
-.feat__coll__item .feat__item__price {
-    display: inline-block;
+.men__items .men__item__name,
+.men__items .men__item__price,
+.women__items .women__item__name,
+.women__items .women__item__price {
+    display: flex;
     width: 100%;
     height: auto;
     padding: 10px 0px;
 }
 
-.feat__coll__item .feat__item__name h4 {
+.men__items .men__item__name h4,
+.women__items .women__item__name h4 {
     font-size: 15px;
     font-family: var(--primaryFont);
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.feat__coll__item .feat__item__price h3 {
+.men__items .men__item__price h3,
+.women__items .women__item__price h3 {
     font-size: 16px;
     font-family: var(--primaryFont);
     font-weight: 700;
 }
 
-.shop {
+.men__items .men__save__item,
+.women__items .women__save__item {
     display: inline-block;
-    width: 100%;
-    height: auto;
-    padding: 50px 0px;
+    margin: 15px 0px 0px 0px;
 }
 
-.shop .shop__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.shop__title .shop__left__text h2 {
-    font-size: 25px;
+.men__items .men__save__item h4,
+.women__items .women__save__item h4 {
+    padding: 5px;
+    font-size: 14px;
     font-family: var(--primaryFont);
-    font-weight: 700;
     text-transform: uppercase;
-}
-
-.shop__title .shop__right__text a {
-    font-size: 15px;
-    font-family: var(--primaryFont);
-    font-weight: 500;
-    text-decoration: none;
     color: var(--black);
-}
-
-.shop {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-}
-
-.shop__items .shop__items__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 30px 0px;
-}
-
-.shop__items .shop__items__container a{
-    color: var(--black);
-    text-decoration: none;
-}
-
-.shop__items__container .shop__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 0px 15px #f0efef;
-    padding: 0px 0px 25px 0;
-}
-
-.shop__item .shop__item__image {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-}
-
-.shop__item .shop__item__image img {
-    object-fit: contain;
-    height: 250px;
-    width: 100%;
-    max-width: 100%;
-}
-
-.shop__item .shop__item__name h4 {
-    font-size: 16px;
-    font-family: var(--primaryFont);
-    font-weight: 700;
-    text-transform: capitalize;
+    border: 2px solid var(--black);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .footer {
@@ -504,17 +582,18 @@ section {
     font-weight: 600;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 720px) {
+@media only screen and (min-width: 320px) and (max-width: 720px) {
     .container {
         width: 100%;
         height: 100%;
         position: relative;
     }
     section {
-        width: 80%;
+        width: 85%;
         height: 100%;
     }
     .header__container {
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -609,25 +688,127 @@ section {
     .nav .nav__links li {
         margin: 30px 0px;
     }
-    .feat__coll .feat__title,
-    .shop .shop__title {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .feat__coll .feat__title h2,
-    .shop .shop__title h2 {
-        font-size: 20px;
-        margin: 0px 0px 15px 0px;
-    }
-    .feat__coll__items .feat__coll__items__container,
-    .shop__items .shop__items__container   {
-        grid-template-columns: 1fr 1fr;
-    }
-    .feat__coll__item .feat__item__name h4,
-    .feat__coll__item .feat__item__price h3 {
+    /* Men's shirt and Women Boardshort items */
+    .mens__pat,
+    .womens__pat {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
+    }
+    .men__shirt__container,
+    .women__boardshort__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .men__shirt__container .men__shirt__categ,
+    .women__boardshort__container .women__boardshort__categ {
+        display: none;
+    }
+    .men__shirt__container .desc__header,
+    .women__boardshort__container .desc__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .desc__header .desc__header__left {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px 0px 0px 0px;
+    }
+    .desc__header .desc__header__left h2 {
+        font-size: 20px;
+    }
+    .desc__header .desc__header__right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .desc__header__right .sort__item {
+        margin: 0px 15px 0px 0px;
+    }
+    .desc__header__right .sort__item a {
+        font-size: 14px;
+    }
+    .desc__header .feat select {
+        font-size: 14px;
+    }
+    .desc__header__right .filter {
+        display: block;
+    }
+    .desc__header__right .filter button {
+        padding: 4px 8px;
+    }
+    .men__shirt__container .men__items__container,
+    .women__boardshort__container .women__items__container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .men__items .men__item__image img,
+    .women__items .women__item__image img {
+        height: 160px;
+        object-fit: contain;
+    }
+    .men__items .men__item__overlay,
+    .women__items .women__item__overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: .3s ease;
+        background-color: var(--lightGray);
+        opacity: 0;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -ms-transition: .3s ease;
+        -o-transition: .3s ease;
+    }
+    .men__items .men__item__image:hover .men__item__overlay,
+    .women__items .women__item__image:hover .women__item__overlay {
+        opacity: 0.1;
+    }
+    .men__items .men__item__name {
+        width: 80%;
+        height: auto;
+    }
+    .men__items .men__item__name h4,
+    .women__items .women__item__name h4 {
+        font-size: 13px;
+        font-family: var(--primaryFont);
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .men__items .men__item__price h3,
+    .women__items .women__item__price h3 {
+        font-size: 16px;
+        font-family: var(--primaryFont);
+        font-weight: 700;
+    }
+    .men__items .men__save__item,
+    .women__items .women__save__item {
+        display: inline-block;
+        margin: 15px 0px 0px 0px;
+    }
+    .men__items .men__save__item h4,
+    .women__items .women__save__item h4 {
+        padding: 3px;
+        font-size: 12px;
+        font-family: var(--primaryFont);
+        text-transform: uppercase;
+        color: var(--black);
+        border: 2px solid var(--black);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
     }
     .footer__copyright {
         flex-direction: column;
@@ -648,7 +829,7 @@ section {
     }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 1000px) {
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
     .container {
         width: 100%;
         height: 100%;
@@ -754,46 +935,115 @@ section {
     .nav .nav__links li {
         margin: 30px 0px;
     }
-    .feat__coll .feat__title,
-    .shop .shop__title {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .feat__title .feat__left__text,
-    .shop__title .shop__left__text {
-        margin: 0px 0px 10px 0px;
-    }
-    .feat__title .feat__left__text h2,
-    .shop_title .shop__left__text h2 {
-        font-size: 25px;
-    }
-    .feat__title .feat__right__text a,
-    .shop__title .shop__right__text a {
-        font-size: 20px;
-    }
-    .feat__coll__items .feat__coll__items__container,
-    .shop__items .shop__items__container   {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .feat__coll__item .feat__item__name,
-    .feat__coll__item .feat__item__price  {
+    /* Men's shirt and Women Boardshort items */
+    .mens__pat,
+    .womens__pat {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
     }
-    .feat__coll__item .feat__item__name h4,
-    .feat__coll__item .feat__item__price h3 {
-        font-size: 17px;
+    .men__shirt__container,
+    .women__boardshort__container {
+        display: flex;
+        flex-direction: column;
     }
-    .shop__item .shop__item__name h4 {
+    .men__shirt__container .men__shirt__categ,
+    .women__boardshort__container .women__boardshort__categ {
+        display: none;
+    }
+    .men__shirt__container .desc__header,
+    .women__boardshort__container .desc__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .desc__header .desc__header__left {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px 0px 0px 0px;
+    }
+    .desc__header .desc__header__right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    .desc__header__right .sort__item {
+        margin: 0px 15px 0px 0px;
+    }
+    .desc__header__right .filter {
+        display: block;
+    }
+    .men__shirt__container .men__items__container,
+    .women__boardshort__container .women__items__container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 30px 0px;
+        margin: 40px 0px;
+    }
+    .men__items .men__item__image img,
+    .women__items .women__item__image img {
+        height: 210px;
+        object-fit: contain;
+    }
+    .men__items .men__item__overlay,
+    .women__items .women__item__overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: .3s ease;
+        background-color: var(--lightGray);
+        opacity: 0;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -ms-transition: .3s ease;
+        -o-transition: .3s ease;
+    }
+    .men__items .men__item__image:hover .men__item__overlay,
+    .women__items .women__item__image:hover .women__item__overlay {
+        opacity: 0.1;
+    }
+    .men__items .men__item__name {
+        width: 80%;
+        height: auto;
+    }
+    .men__items .men__item__name h4,
+    .women__items .women__item__name h4 {
+        font-size: 15px;
+        font-family: var(--primaryFont);
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .men__items .men__item__price h3,
+    .women__items .women__item__price h3 {
         font-size: 18px;
+        font-family: var(--primaryFont);
+        font-weight: 700;
     }
-    .footer__container .footer__head h3,
-    .footer__container .footer__email h4{
-        font-size: 20px;
+    .men__items .men__save__item,
+    .women__items .women__save__item {
+        display: inline-block;
+        margin: 15px 0px 0px 0px;
     }
-    .footer__container .footer__icons i {
-        font-size: 30px;
+    .men__items .men__save__item h4,
+    .women__items .women__save__item h4 {
+        padding: 5px;
+        font-size: 14px;
+        font-family: var(--primaryFont);
+        text-transform: uppercase;
+        color: var(--black);
+        border: 2px solid var(--black);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
     }
     .footer__copyright {
         flex-direction: column;
@@ -804,22 +1054,89 @@ section {
         align-items: center;
     }
     .footer__copyright .footer__copyright__left h3 {
-        font-size: 17px;
         margin: 0;
     }
     .footer__copyright .footer__copyright__center {
         margin: 25px 0px;
     }
-    .footer__copyright .footer__copyright__center h3 {
-        font-size: 17px;
-    }
-    .footer__copyright .footer__copyright__right h3 {
-        font-size: 20px;
+    .btnScroll {
+        display: none;
     }
 }
 
-@media only screen and (min-width: 1020px) {
-
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    section {
+        width: 90%;
+        height: auto;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin: 30px 0px 0px 0px;
+    }
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__right .account {
+        display: flex;
+    }
+    .prod__info .search__prod,
+    .prod__info .cart{
+        display: flex;
+    }
+    .header__container .mobile__res {
+        display: none;
+    }
+    .nav {
+        position: relative;
+        top: 0;
+        left: 0;
+    } 
+    .nav .search__container {
+        display: none;
+    }
+    .nav .nav__links {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .nav .nav__links li {
+        margin: 0px 30px 0px 0px;
+    }
+    .men__shirt__container .desc__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .desc__header .desc__header__left {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+    }
+    .desc__header .desc__header__right {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px;
+    }
+    .desc__header__right .filter {
+        display: none;
+    }
+    .men__shirt__container {
+        display: flex;
+        flex-direction: row;
+    }.men__shirt__container .men__shirt__categ {
+        display: block;
+    } 
 }
 
 
