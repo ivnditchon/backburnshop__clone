@@ -219,7 +219,10 @@ section {
     display: none;
 }
 
-.mens__pat, .womens__pat {
+.mens__pat, 
+.womens__pat,
+.mens__bs__pat,
+.head__wear__pat {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -228,7 +231,9 @@ section {
 }
 
 .mens__pat a,
-.womens__pat a {
+.womens__pat a,
+.mens__bs__pat a,
+.head__wear__pat a {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -238,12 +243,16 @@ section {
 }
 
 .mens__pat img,
-.womens__pat img {
+.womens__pat img,
+.mens__bs__pat img,
+.head__wear__pat img {
     margin: 0px 10px;
 }
 
 .mens__pat span,
-.womens__pat span {
+.womens__pat span,
+.mens__bs__pat span,
+.head__wear__pat span {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -253,14 +262,18 @@ section {
 }
 /* Men's shirt and Women's boardshort */
 .men__shirt__container,
-.women__boardshort__container {
+.women__boardshort__container,
+.men__boardshort__container,
+.head__wear__container {
     display: flex;
     padding: 15px 0px;
     margin: 20px 0px;
 }
 
 .men__shirt__container .men__shirt__categ,
-.women__boardshort__container .women__boardshort__categ {
+.women__boardshort__container .women__boardshort__categ,
+.men__boardshort__container .men__boardshort__categ,
+.head__wear__container .head__wear__categ {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -268,12 +281,16 @@ section {
 }
 
 .men__shirt__categ .categ__title,
-.women__boardshort__categ .categ__title {
+.women__boardshort__categ .categ__title,
+.men__boardshort__categ .categ__title,
+.head__wear__categ .categ__title {
     padding: 15px 0px;
 }
 
 .men__shirt__categ .categ__title h3,
-.women__boardshort__categ .categ__title h3 {
+.women__boardshort__categ .categ__title h3,
+.men__boardshort__categ .categ__title h3,
+.head__wear__categ .categ__title h3 {
     font-size: 20px;
     font-family: var(--primaryFont);
     font-weight: 700;
@@ -281,7 +298,9 @@ section {
 }
 
 .men__shirt__categ .categ__items,
-.women__boardshort__categ .categ__items {
+.women__boardshort__categ .categ__items,
+.men__boardshort__categ .categ__items,
+.head__wear__categ .categ__items {
     list-style: none;
 }
 
@@ -298,12 +317,16 @@ section {
 }
 
 .men__shirt__container .mens__shirt__desc,
-.women__boardshort__container .womens__boardshort__desc {
+.women__boardshort__container .womens__boardshort__desc,
+.men__boardshort__container .mens__boardshort__desc,
+.head__wear__items__container .head__wear__desc {
     flex: 2;
 }
 
 .mens__shirt__desc .desc__header,
-.womens__boardshort__desc .desc__header {
+.womens__boardshort__desc .desc__header,
+.mens__boardshort__desc .desc__header,
+.head__wear__desc .desc__header {
     display: flex;
     justify-content: space-between;
 }
@@ -369,7 +392,9 @@ section {
 }
 /* Men and Women items */
 .men__shirt__container .men__items__container,
-.women__boardshort__container .women__items__container {
+.women__boardshort__container .women__items__container,
+.mens__boardshort__desc .men__bs__items__container,
+.head__wear__desc .head__wear__items__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
@@ -379,13 +404,17 @@ section {
 
 
 .men__items__container .men__items a,
-.women__boardshort__container .women__items a {
+.women__boardshort__container .women__items a,
+.men__bs__items__container .men__bs__items a,
+.head__wear__items__container .head__wear__items a {
     color: var(--black);
     text-decoration: none;
 }
 
 .men__items .men__item__image,
-.women__items .women__item__image {
+.women__items .women__item__image,
+.men__bs__items .men__bs__item__image,
+.head__wear__items .head__wear__item__image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,7 +422,9 @@ section {
 }
 
 .men__items .men__item__overlay,
-.women__items .women__item__overlay {
+.women__items .women__item__overlay,
+.men__bs__items .men__bs__item__overlay,
+.head__wear__items .head__wear__item__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -407,12 +438,16 @@ section {
 }
 
 .men__items .men__item__image:hover .men__item__overlay,
-.women__items .women__item__image:hover .women__item__overlay {
+.women__items .women__item__image:hover .women__item__overlay,
+.men__bs__items .men__bs__item__image:hover .men__bs__item__overlay, 
+.head__wear__items .head__wear__item__image:hover .head__wear__item__overlay{
     opacity: 0.1;
 }
 
 .men__items .men__item__image img,
-.women__items .women__item__image img { 
+.women__items .women__item__image img,
+.men__bs__items .men__bs__item__image img,
+.head__wear__items .head__wear__item__image img { 
     height: 250px;
     object-fit: fill;
 }
@@ -420,7 +455,11 @@ section {
 .men__items .men__item__name,
 .men__items .men__item__price,
 .women__items .women__item__name,
-.women__items .women__item__price {
+.women__items .women__item__price,
+.men__bs__items .men__bs__item__name,
+.men__bs__items .men__bs__item__price,
+.head__wear__items .head__wear__item__name,
+.head__wear__items .head__wear__item__price {
     display: flex;
     width: 100%;
     height: auto;
@@ -428,7 +467,9 @@ section {
 }
 
 .men__items .men__item__name h4,
-.women__items .women__item__name h4 {
+.women__items .women__item__name h4,
+.men__bs__items .men__bs__item__name h4,
+.head__wear__items .head__wear__item__name h4 {
     font-size: 15px;
     font-family: var(--primaryFont);
     font-weight: 500;
@@ -436,20 +477,26 @@ section {
 }
 
 .men__items .men__item__price h3,
-.women__items .women__item__price h3 {
+.women__items .women__item__price h3,
+.men__bs__items .men__bs__item__price h3,
+.head__wear__items .head__wear__item__price h3 {
     font-size: 16px;
     font-family: var(--primaryFont);
     font-weight: 700;
 }
 
 .men__items .men__save__item,
-.women__items .women__save__item {
+.women__items .women__save__item,
+.men__bs__items .men__bs__save__item,
+.head__wear__items .head__wear__save__item {
     display: inline-block;
     margin: 15px 0px 0px 0px;
 }
 
 .men__items .men__save__item h4,
-.women__items .women__save__item h4 {
+.women__items .women__save__item h4,
+.men__bs__items .men__bs__save__item h4,
+.head__wear__items .head__wear__save__item h4 {
     padding: 5px;
     font-size: 14px;
     font-family: var(--primaryFont);
@@ -690,22 +737,30 @@ section {
     }
     /* Men's shirt and Women Boardshort items */
     .mens__pat,
-    .womens__pat {
+    .womens__pat,
+    .mens__bs__pat,
+    .head__wear__pat {
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
     .men__shirt__container,
-    .women__boardshort__container {
+    .women__boardshort__container,
+    .men__boardshort__container,
+    .head__wear__container {
         display: flex;
         flex-direction: column;
     }
     .men__shirt__container .men__shirt__categ,
-    .women__boardshort__container .women__boardshort__categ {
+    .women__boardshort__container .women__boardshort__categ,
+    .men__boardshort__container .men__boardshort__categ,
+    .head__wear__container .head__wear__categ {
         display: none;
     }
     .men__shirt__container .desc__header,
-    .women__boardshort__container .desc__header {
+    .women__boardshort__container .desc__header,
+    .men__boardshort__container .desc__header,
+    .head__wear__container .desc__header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -744,7 +799,9 @@ section {
         padding: 4px 8px;
     }
     .men__shirt__container .men__items__container,
-    .women__boardshort__container .women__items__container {
+    .women__boardshort__container .women__items__container,
+    .men__boardshort__container .men__bs__items__container,
+    .head__wear__container .head__wear__items__container {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -753,12 +810,16 @@ section {
         padding: 0px;
     }
     .men__items .men__item__image img,
-    .women__items .women__item__image img {
+    .women__items .women__item__image img,
+    .men__bs__items .men__bs__item__image img,
+    .head__wear__items .head__wear__item__image img {
         height: 160px;
         object-fit: contain;
     }
     .men__items .men__item__overlay,
-    .women__items .women__item__overlay {
+    .women__items .women__item__overlay,
+    .men__bs__items .men__bs__item__overlay,
+    .head__wear .head__wear__item__overlay {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -771,7 +832,9 @@ section {
         -o-transition: .3s ease;
     }
     .men__items .men__item__image:hover .men__item__overlay,
-    .women__items .women__item__image:hover .women__item__overlay {
+    .women__items .women__item__image:hover .women__item__overlay,
+    .men__bs__items .men__bs__item__image:hover .men__bs__item__overlay,
+    .head__wear .head__wear__item__image:hover .head__wear__item__overlay {
         opacity: 0.1;
     }
     .men__items .men__item__name {
@@ -779,25 +842,33 @@ section {
         height: auto;
     }
     .men__items .men__item__name h4,
-    .women__items .women__item__name h4 {
+    .women__items .women__item__name h4,
+    .men__bs__items .men__bs__item__name h4,
+    .head__wear__items .head__wear__item__name h4 {
         font-size: 13px;
         font-family: var(--primaryFont);
         font-weight: 500;
         text-transform: capitalize;
     }
     .men__items .men__item__price h3,
-    .women__items .women__item__price h3 {
+    .women__items .women__item__price h3,
+    .men__bs__items .men__bs__item__price h3,
+    .head__wear__items .head__wear__item__price h3 {
         font-size: 16px;
         font-family: var(--primaryFont);
         font-weight: 700;
     }
     .men__items .men__save__item,
-    .women__items .women__save__item {
+    .women__items .women__save__item,
+    .men__bs__items .men__bs__save__item,
+    .head__wear__items .head__wear__save__item {
         display: inline-block;
         margin: 15px 0px 0px 0px;
     }
     .men__items .men__save__item h4,
-    .women__items .women__save__item h4 {
+    .women__items .women__save__item h4,
+    .men__bs__items .men__bs__save__item h4,
+    .head__wear__items .head__wear__save__item h4 {
         padding: 3px;
         font-size: 12px;
         font-family: var(--primaryFont);
@@ -937,22 +1008,29 @@ section {
     }
     /* Men's shirt and Women Boardshort items */
     .mens__pat,
-    .womens__pat {
+    .womens__pat,
+    .men__bs__pat,
+    .head__wear__pat {
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
     .men__shirt__container,
-    .women__boardshort__container {
+    .women__boardshort__container,
+    .men__boardshort__container,
+    .head__wear__container {
         display: flex;
         flex-direction: column;
     }
     .men__shirt__container .men__shirt__categ,
-    .women__boardshort__container .women__boardshort__categ {
+    .women__boardshort__container .women__boardshort__categ,
+    .men__boardshort__container .men__boardshort__categ,
+    .head__wear__container .head__wear__categ {
         display: none;
     }
     .men__shirt__container .desc__header,
-    .women__boardshort__container .desc__header {
+    .women__boardshort__container .desc__header,
+    .head__wear__container .desc__header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -979,7 +1057,9 @@ section {
         display: block;
     }
     .men__shirt__container .men__items__container,
-    .women__boardshort__container .women__items__container {
+    .women__boardshort__container .women__items__container,
+    .men__boardshort__container .men__bs__items__container,
+    .head__wear__container .head__wear__items__container {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -988,12 +1068,16 @@ section {
         margin: 40px 0px;
     }
     .men__items .men__item__image img,
-    .women__items .women__item__image img {
+    .women__items .women__item__image img,
+    .men__bs__items .men__bs__item__image img,
+    .head__wear__items .head__wear__item__image img {
         height: 210px;
         object-fit: contain;
     }
     .men__items .men__item__overlay,
-    .women__items .women__item__overlay {
+    .women__items .women__item__overlay,
+    .men__bs__items .men__bs__item__overlay,
+    .head__wear__items .head__wear__item__overlay {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1006,7 +1090,9 @@ section {
         -o-transition: .3s ease;
     }
     .men__items .men__item__image:hover .men__item__overlay,
-    .women__items .women__item__image:hover .women__item__overlay {
+    .women__items .women__item__image:hover .women__item__overlay,
+    .men__bs__items .men__bs__item__image:hover .men__bs__item__overlay,
+    .head__wear__items .head__wear__item__image:hover .head__wear__item__overlay {
         opacity: 0.1;
     }
     .men__items .men__item__name {
@@ -1014,25 +1100,33 @@ section {
         height: auto;
     }
     .men__items .men__item__name h4,
-    .women__items .women__item__name h4 {
+    .women__items .women__item__name h4,
+    .men__bs__items .men__bs__item__name h4,
+    .head__wear__items .head__wear__item__name h4 {
         font-size: 15px;
         font-family: var(--primaryFont);
         font-weight: 500;
         text-transform: capitalize;
     }
     .men__items .men__item__price h3,
-    .women__items .women__item__price h3 {
+    .women__items .women__item__price h3,
+    .men__bs__items .men__bs__item__price h3,
+    .head__wear__items .head__wear__item__price h3 {
         font-size: 18px;
         font-family: var(--primaryFont);
         font-weight: 700;
     }
     .men__items .men__save__item,
-    .women__items .women__save__item {
+    .women__items .women__save__item,
+    .men__bs__items .men__bs__save__item,
+    .head__wear__items .head__wear__save__item {
         display: inline-block;
         margin: 15px 0px 0px 0px;
     }
     .men__items .men__save__item h4,
-    .women__items .women__save__item h4 {
+    .women__items .women__save__item h4,
+    .men__bs__items .men__bs__save__item h4,
+    .head__wear__items .head__wear__save__item h4 {
         padding: 5px;
         font-size: 14px;
         font-family: var(--primaryFont);
@@ -1112,7 +1206,23 @@ section {
     .nav .nav__links li {
         margin: 0px 30px 0px 0px;
     }
-    .men__shirt__container .desc__header {
+    .men__shirt__container,
+    .women__boardshort__container, 
+    .men__boardshort__container,
+    .head__wear__container {
+        display: flex;
+        flex-direction: row;
+    }
+    .men__shirt__container .men__shirt__categ,
+    .women__boardshort__container .women__boardshort__categ,
+    .men__boardshort__container .men__boardshort__categ,
+    .head__wear__container .head__wear__categ {
+        display: block;
+    } 
+    .men__shirt__container .desc__header,
+    .women__boardshort__container .desc__header,
+    .men__boardshort__container .desc__header,
+    .head__wear__container .desc__header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -1131,12 +1241,6 @@ section {
     .desc__header__right .filter {
         display: none;
     }
-    .men__shirt__container {
-        display: flex;
-        flex-direction: row;
-    }.men__shirt__container .men__shirt__categ {
-        display: block;
-    } 
 }
 
 

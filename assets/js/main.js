@@ -160,7 +160,7 @@ function myFunctions() {
     navDropDownActive();
     carousel();
     toggleMenu();
-    scrollTop();
+    scrollTop();    
 };
 
 myFunctions();
