@@ -136,7 +136,7 @@ function navToggle() {
     else {
         location.reload();
     }
-}
+};
 
 function changeNavIcon() {
     const caret = document.querySelectorAll('#caret');
