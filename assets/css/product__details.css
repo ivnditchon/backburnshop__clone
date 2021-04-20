@@ -219,7 +219,7 @@ section {
     display: none;
 }
 
-.featured__prod__pat {
+.productDetails__pat {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -227,7 +227,7 @@ section {
     margin: 0px;
 }
 
-.featured__prod__pat a {
+.productDetails__pat a {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -236,11 +236,11 @@ section {
     color: var(--black);
 }
 
-.featured__prod__pat img {
+.productDetails__pat img {
     margin: 0px 10px;
 }
 
-.featured__prod__pat span {
+.productDetails__pat span {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -249,49 +249,49 @@ section {
     color: var(--black);
 }
 
-.featured__prod__container {
+.productDetails__container {
     display: flex;
     justify-content: center;
 }
 
-.featured__prod__container .featured__prod__image,
-.featured__prod__container .featured__prod__desc {
+.productDetails__container .productDetails__image,
+.productDetails__container .productDetails__desc {
     margin: 20px;
     padding: 20px;
 }
 
-.featured__prod__desc .featured__prod__title,
-.featured__prod__desc .featured__prod__price,
-.featured__prod__desc .featured__prod__size,
-.featured__prod__desc .featured__prod__color,
-.featured__prod__desc .featured__prod__quantity {
+.productDetails__desc .productDetails__title,
+.productDetails__desc .productDetails__price,
+.productDetails__desc .productDetails__size,
+.productDetails__desc .productDetails__color,
+.productDetails__desc .productDetails__quantity {
     display: flex;
     flex-direction: column;
     margin: 0px 0px 30px 0px;
 }
 
-.featured__prod__desc .featured__prod__title h2 {
+.productDetails__desc .productDetails__title h2 {
     font-family: var(--primaryFont);
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.featured__prod__desc .featured__prod__price h3 {
+.productDetails__desc .productDetails__price h3 {
     font-family: var(--primaryFont);
     font-weight: 700;
 }
 
-.featured__prod__desc .featured__prod__size label,
-.featured__prod__desc .featured__prod__color label,
-.featured__prod__desc .featured__prod__quantity label {
+.productDetails__desc .productDetails__size label,
+.productDetails__desc .productDetails__color label,
+.productDetails__desc .productDetails__quantity label {
     font-size: 15px;
     font-family: var(--primaryFont);
     font-weight: 500;
     text-transform: capitalize;
 }
 
-.featured__prod__desc .featured__prod__size select,
-.featured__prod__desc .featured__prod__color select {
+.productDetails__desc .productDetails__size select,
+.productDetails__desc .productDetails__color select {
     width: 30%;
     font-size: 14px;
     font-family: var(--primaryFont);
@@ -300,7 +300,7 @@ section {
     border: none;
 }
 
-.featured__prod__desc .featured__prod__quantity input {
+.productDetails__desc .productDetails__quantity input {
     width: 50%;
     padding: 7px;
     margin: 7px 0px 0px 0px;
@@ -308,7 +308,7 @@ section {
     background-color: var(--lightGray);
 }
 
-.featured__prod__desc .add__to__cart button {
+.productDetails__desc .add__to__cart button {
     padding: 8px 18px;
     background-color: var(--black);
     border: 1px solid var(--black);
@@ -329,30 +329,30 @@ section {
     align-items: center;
 }
 
-.featured__prod__desc .add__to__cart button img {
+.productDetails__desc .add__to__cart button img {
     margin: 0px 7px 0px 0px;
 }
 
 
-.featured__prod__details .featured__prod__details__title,
-.featured__prod__container .featured__prod__size__chart {
+.product__details .product__details__title,
+.productDetails__container .productDetails__size__chart {
     margin: 50px 0px 10px 0px;
 }
 
-.featured__prod__details .featured__prod__details__title h4 i,
-.featured__prod__container .featured__prod__size__chart h4 i {
+.product__details .product__details__title h4 i,
+.productDetails__container .productDetails__size__chart h4 i {
     font-size: 15px;
     font-family: var(--primaryFont);
     text-transform: uppercase;
 }
 
-.featured__prod__details .featured__prod__details__text ul li {
+.product__details .product__details__text ul li {
     font-size: 14px;
     font-family: var(--primaryFont);
     margin: 10px 0px;
 }
 
-.featured__prod__desc .featured__prod__size__chart img {
+.productDetails__desc .productDetails__size__chart img {
     height: 350px;
     object-fit: contain;
 }

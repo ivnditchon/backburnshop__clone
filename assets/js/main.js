@@ -139,14 +139,14 @@ function navToggle() {
 };
 
 function changeNavIcon() {
-    const caret = document.querySelectorAll('#caret');
+    var caret = document.querySelectorAll('#caret');
     caret.forEach(function(caretIcons){
         caretIcons.classList.toggle('fa-plus');
     });
 }
 
 function scrollTop() {
-    const btnToScroll = document.querySelector('#btn__scroll');
+    var btnToScroll = document.querySelector('#btn__scroll');
     btnToScroll.addEventListener('click', function() {
         window.scrollTo({
             top: 0,
@@ -156,11 +156,30 @@ function scrollTop() {
     });
 }
 
+function featCollitem() {
+    var item = document.querySelectorAll("#item");
+    for (let i = 0; i < item.length; i++) {
+        item[i].addEventListener('click', (e) => {
+            var categName = document.getElementById("feat__left__text").getElementsByTagName("h2")[0].innerHTML;
+            var image = e.currentTarget.getElementsByTagName("div")[0].getElementsByTagName("img")[0].getAttribute("src");;
+            var name = e.currentTarget.getElementsByTagName("div")[1].getElementsByTagName("h4")[0].innerHTML;
+            var price = e.currentTarget.getElementsByTagName("div")[2].getElementsByTagName("h3")[0].innerHTML;
+            localStorage.setItem("title", categName);
+            localStorage.setItem("image", image);
+            localStorage.setItem("name", name);
+            localStorage.setItem("price", price);
+            window.location.href = "product__details.html";
+        });
+    }
+    
+}
+
 function myFunctions() {
     navDropDownActive();
     carousel();
     toggleMenu();
-    scrollTop();    
+    scrollTop();
+    featCollitem();
 };
-
+/* Invoke myFunctions */
 myFunctions();

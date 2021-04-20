@@ -262,6 +262,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .feat__coll__items .feat__coll__items__container {

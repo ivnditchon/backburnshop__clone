@@ -7,14 +7,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Men's Running - Backburn</title>
+        <title>Women's Basic Boardshorts - Backburn</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/shop.css">
-        <script src="assets/js/shop.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="assets/css/product__details.css">
         <link rel="icon" type="image/jpg" href="assets/images/logo.jpg">
     </head>
     <body>
@@ -163,159 +162,78 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="menRs__pat">
+                    <div class="productDetails__pat">
                         <a href="index.html">home</a>
                         <img src="assets/images/keyboard_arrow_right.svg" alt="Keyboard arrow right">
-                        <span>men's running shorts</span>
+                        <a id="category__name"></a>
+                        <img src="assets/images/keyboard_arrow_right.svg" alt="Keyboard arrow right">
+                        <span id="product__name"></span>
                     </div>
-                    <!-- Men's Running Shorts Container -->
-                    <div class="menRs__container">
-                        <div class="menRs__categ" id="menRs__categ">
-                            <div class="categ__title">
-                                <h3>shop by</h3>
-                            </div>
-                            <ul class="categ__items">
-                                <li class="categ__item">
-                                    <a href="#">black</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">blue</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">navy blue</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">royal blue</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">runner</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">running</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">running gear</a>
-                                </li>
-                                <li class="categ__item">
-                                    <a href="#">running shorts</a>
-                                </li>
-                            </ul>
+                    <!-- Featured Product Item -->
+                    <div class="productDetails__container">
+                        <div class="productDetails__image" id="productDetails__image">
+                            <img id="img">
                         </div>
-                        <div class="menRs__desc" id="menRs__desc">
-                            <div class="desc__header">
-                                <div class="desc__header__left">
-                                    <h2>men's running shorts</h2>
+                        <div class="productDetails__desc">
+                            <div class="productDetails__title" id="productDetails__title">
+                                <h2 id="p__name"></h2>
+                            </div>
+                            <div class="productDetails__price">
+                                <h3 id="p__price"></h3>
+                            </div>
+                            <div class="productDetails__size">
+                                <label for="size">size</label>
+                                <select id="productDetails__size">
+                                    <option value="small" selected="selected">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XS">XS</option>
+                                </select>
+                            </div>
+                            <div class="productDetails__color">
+                                <label for="color">color</label>
+                                <select id="productDetails__color">
+                                    <option value="coralpink" selected="selected">Coral Pink</option>
+                                </select>
+                            </div>
+                            <div class="productDetails__quantity">
+                                <label for="quantity">quantity</label>
+                                <input type="number" name="quantity" id="quantity">
+                            </div>
+                            <div class="add__to__cart">
+                                <button>
+                                    <img src="assets/images/featured__product/featured__prod__shopping_cart.svg" alt="Cart">
+                                    add to cart
+                                </button>
+                            </div>
+                            <div class="product__details">
+                                <div class="product__details__title">
+                                    <h4><i>product details</i></h4>
                                 </div>
-                                <div class="desc__header__right">
-                                    <div class="desc__right">
-                                        <div class="sort__item">
-                                            <a href="#">Sort by</a>
-                                        </div>
-                                        <div class="feat">
-                                            <form id="form">
-                                                <select id="featured">
-                                                    <option value="" selected="selected">Featured</option>
-                                                    <option value="AL">Best Selling</option>
-                                                    <option value="AK">Alphabetically, A-Z</option>
-                                                    <option value="AZ">Alphabetically, Z-A</option>
-                                                    <option value="AR">Price, high to low</option>
-                                                    <option value="AR">Price, low to high</option>
-                                                    <option value="AR">Date, old to new</option>
-                                                    <option value="AR">Date, new to old</option>
-                                                </select>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="filter">
-                                        <button id="mensRS__filterProd__btn">filters</button>
-                                    </div>
+                                <div class="product__details__text">
+                                    <ul>
+                                        <li>
+                                            Fabric/Material: water-proof polyester with stretch
+                                        </li>
+                                        <li>
+                                            Color: Coral Pink
+                                        </li>
+                                        <li>
+                                            Drawstring Elastic Waist (garter)
+                                        </li>
+                                        <li>
+                                            No pockets
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <!-- Mens runningshorts items image and description -->
-                            <div class="menRs__items__container">
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-NGREEN_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                            <div class="productDetails__size__chart">
+                                <div class="productDetails__size__chart__title">
+                                    <h4><i>size chart</i></h4>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-RBLUE_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-SILVER_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-NBLUE_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-B-NGREEN._360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's slider running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 389.00</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-B-SILVER_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's slider running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="productDetails__size__chart__img">
+                                    <img src="assets/images/size chart.webp" alt="Size Chart">
                                 </div>
                             </div>
                         </div>
@@ -355,5 +273,6 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <script src="assets/js/product.js" type="text/javascript"></script>
     </body>
 </html>

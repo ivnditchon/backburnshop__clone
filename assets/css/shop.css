@@ -19,6 +19,10 @@ section {
     margin: auto;
 }
 
+main {
+    min-height: 100vh;
+}
+
 .container {
     width: 100%;
     height: 100%;
@@ -223,14 +227,17 @@ section {
 .womens__pat,
 .mens__bs__pat,
 .head__wear__pat,
-.men__running__shorts__pat,
+.menRs__pat,
 .women__running__shorts__pat,
 .personal__care__pat,
 .on__sale__pat,
 .featCollection__pat,
 .menRunningTop__pat,
 .womensBoardshort2021__pat,
-.bestSelling__prod__pat {
+.bestSelling__prod__pat,
+.runnerCap__pat,
+.onSaleMen__pat,
+.onSaleWomen__pat {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -242,14 +249,17 @@ section {
 .womens__pat a,
 .mens__bs__pat a,
 .head__wear__pat a,
-.men__running__shorts__pat a,
+.menRs__pat a,
 .women__running__shorts__pat a,
 .personal__care__pat a,
 .on__sale__pat a,
 .featCollection__pat a,
 .menRunningTop__pat a,
 .womensBoardshort2021__pat a,
-.bestSelling__prod__pat a {
+.bestSelling__prod__pat a,
+.runnerCap__pat a,
+.onSaleMen__pat a,
+.onSaleWomen__pat a {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -262,14 +272,17 @@ section {
 .womens__pat img,
 .mens__bs__pat img,
 .head__wear__pat img,
-.men__running__shorts__pat img,
+.menRs__pat img,
 .women__running__shorts__pat img,
 .personal__care__pat img,
 .on__sale__pat img,
 .featCollection__pat img,
 .menRunningTop__pat img,
 .womensBoardshort2021__pat img,
-.bestSelling__prod__pat img {
+.bestSelling__prod__pat img,
+.runnerCap__pat img,
+.onSaleMen__pat img,
+.onSaleWomen__pat img {
     margin: 0px 10px;
 }
 
@@ -277,14 +290,17 @@ section {
 .womens__pat span,
 .mens__bs__pat span,
 .head__wear__pat span,
-.men__running__shorts__pat span,
+.menRs__pat span,
 .women__running__shorts__pat span,
 .personal__care__pat span,
 .on__sale__pat span,
 .featCollection__pat span,
 .menRunningTop__pat span,
 .womensBoardshort2021__pat span,
-.bestSelling__prod__pat span {
+.bestSelling__prod__pat span,
+.runnerCap__pat span,
+.onSaleMen__pat span,
+.onSaleWomen__pat span {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--primaryFont);
@@ -297,14 +313,17 @@ section {
 .women__boardshort__container,
 .men__boardshort__container,
 .head__wear__container,
-.men__running__shorts__container,
+.menRs__container,
 .women__running__shorts__container,
 .personal__care__container,
 .on__sale__container,
 .featCollection__container,
 .menRunningTop__container,
 .womenBoardshort__2021__container,
-.bestSelling__prod__container {
+.bestSelling__prod__container,
+.runnerCap__container,  
+.onSaleMen__container,
+.onSaleWomen__container {
     display: flex;
     padding: 15px 0px;
     margin: 20px 0px;
@@ -314,14 +333,17 @@ section {
 .women__boardshort__container .women__boardshort__categ,
 .men__boardshort__container .men__boardshort__categ,
 .head__wear__container .head__wear__categ,
-.men__running__shorts__container .men__running__shorts__categ,
+.menRs__container .menRs__categ,
 .women__running__shorts__container .women__running__shorts__categ,
 .personal__care__container .personal__care__categ,
 .on__sale__container .on__sale__categ,
 .featCollection__container .featCollection__categ,
 .menRunningTop__container .menRunningTop__categ,
 .womenBoardshort__2021__container .womenBoardshort__2021__categ,
-.bestSelling__prod__container .bestSelling__prod__categ {
+.bestSelling__prod__container .bestSelling__prod__categ,
+.runnerCap__container .runnerCap__categ,
+.onSaleMen__container .onSaleMen__categ,
+.onSaleWomen__container .onSaleWomen__categ {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -332,14 +354,17 @@ section {
 .women__boardshort__categ .categ__title,
 .men__boardshort__categ .categ__title,
 .head__wear__categ .categ__title,
-.men__running__shorts__categ .categ__title,
+.menRs__categ .categ__title,
 .women__running__shorts__categ .categ__title,
 .personal__care__categ .categ__title,
 .on__sale__categ .categ__title,
 .featCollection__categ .categ__title,
 .menRunningTop__categ .categ__title,
 .womenBoardshort__2021__categ .categ__title,
-.bestSelling__prod__categ .categ__title {
+.bestSelling__prod__categ .categ__title,
+.runnerCap__categ .categ__title,
+.onSaleMen__categ .categ__title,
+.onSaleWomen__categ .categ__title {
     padding: 15px 0px;
 }
 
@@ -347,14 +372,17 @@ section {
 .women__boardshort__categ .categ__title h3,
 .men__boardshort__categ .categ__title h3,
 .head__wear__categ .categ__title h3,
-.men__running__shorts__categ .categ__title h3,
+.menRs__categ .categ__title h3,
 .women__running__shorts__categ .categ__title h3,
 .personal__care__categ .categ__title h3,
 .on__sale__categ .categ__title h3,
 .featCollection__categ .categ__title h3,
 .menRunningTop__categ .categ__title h3,
 .womenBoardshort__2021__categ .categ__title h3,
-.bestSelling__prod__categ .categ__title h3 {
+.bestSelling__prod__categ .categ__title h3,
+.runnerCap__categ .categ__title h3,
+.onSaleMen__categ .categ__title h3,
+.onSaleWomen__categ .categ__title h3 {
     font-size: 20px;
     font-family: var(--primaryFont);
     font-weight: 700;
@@ -365,14 +393,17 @@ section {
 .women__boardshort__categ .categ__items,
 .men__boardshort__categ .categ__items,
 .head__wear__categ .categ__items,
-.men__running__shorts__categ .categ__items,
+.menRs__categ .categ__items,
 .women__running__shorts__categ .categ__items,
 .personal__care__categ .categ__items,
 .on__sale__categ .categ__items,
 .featCollection__categ .categ__items,
 .menRunningTop__categ .categ__items,
 .womenBoardshort__2021__categ .categ__items,
-.bestSelling__prod__categ .categ__items {
+.bestSelling__prod__categ .categ__items,
+.runnerCap__categ .categ__items,
+.onSaleMen__categ .categ__items,
+.onSaleWomen__categ .categ__items {
     list-style: none;
 }
 
@@ -392,14 +423,17 @@ section {
 .women__boardshort__container .womens__boardshort__desc,
 .men__boardshort__container .mens__boardshort__desc,
 .head__wear__items__container .head__wear__desc,
-.men__runnning__shorts__container .men__running__shorts__desc,
+.menRs__container .menRs__desc,
 .women__running__shorts__container .women__running__shorts__desc,
 .personal__care__container .personal__care__desc,
 .on__sale__container .on__sale__desc,
 .featCollection__container .featCollection__desc,
 .menRunningTop__container .menRunningTop__desc,
 .womenBoardshort__2021__container .womensBoardshort__2021__desc,
-.bestSelling__prod__container .bestSelling__prod__desc {
+.bestSelling__prod__container .bestSelling__prod__desc,
+.runnerCap__container .runnerCap__desc,
+.onSaleMen__container .onSaleMen__desc,
+.onSaleWomen__container .onSaleWomen__desc {
     flex: 2;
 }
 
@@ -407,14 +441,17 @@ section {
 .womens__boardshort__desc .desc__header,
 .mens__boardshort__desc .desc__header,
 .head__wear__desc .desc__header,
-.men__running__shorts__desc .desc__header,
+.menRs__desc .desc__header,
 .women__running__shorts__desc .desc__header,
 .personal__care__desc .desc__header,
 .on__sale__desc .desc__header,
 .featCollection__desc .desc__header,
 .menRunningTop__desc .desc__header,
 .womensBoardshort__2021__desc .desc__header,
-.bestSelling__prod__desc .desc__header {
+.bestSelling__prod__desc .desc__header,
+.runnerCap__desc .desc__header,
+.onSaleMen__desc .desc__header,
+.onSaleWomen__desc .desc__header {
     display: flex;
     justify-content: space-between;
 }
@@ -483,14 +520,17 @@ section {
 .women__boardshort__container .women__items__container,
 .mens__boardshort__desc .men__bs__items__container,
 .head__wear__desc .head__wear__items__container,
-.men__running__shorts__desc .men__rs__items__container,
+.menRs__desc .menRs__items__container,
 .women__running__shorts__desc .women__rs__items__container,
 .personal__care__desc .personal__care__items__container,
 .on__sale__desc .on__sale__items__container,
 .featCollection__desc .featCollection__items__container,
 .menRunningTop__desc .menRunningTop__items__container,
 .womensBoardshort__2021__desc .womenBoardshort2021__items__container,
-.bestSelling__prod__desc .bestSelling__prod__items__container {
+.bestSelling__prod__desc .bestSelling__prod__items__container,
+.runnerCap__desc .runnerCap__items__container,
+.onSaleMen__desc .onSaleMen__items__container,
+.onSaleWomen__desc .onSaleWomen__items__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 80px;
@@ -498,19 +538,25 @@ section {
     width: 100%;
 }
 
+.men__bs__items__container .men__bs__items {
+    cursor: pointer;
+}
 
 .men__items__container .men__items a,
 .women__boardshort__container .women__items a,
 .men__bs__items__container .men__bs__items a,
 .head__wear__items__container .head__wear__items a,
-.men__rs__items__container .men__rs__items a,
+.menRs__items__container .menRs__items a,
 .women__rs__items__container .women__rs__items a,
 .personal__care__items__container .personal__care__items a,
 .on__sale__items__container .on__sale__items a,
 .featCollection__items__container .featCollection__items a,
 .menRunningTop__items__container .menRunningTop__items a,
 .womenBoardshort2021__items__container .womenBoardshort2021__items a,
-.bestSelling__prod__items__container .bestSelling__prod__items a {
+.bestSelling__prod__items__container .bestSelling__prod__items a,
+.runnerCap__items__container .runnerCap__items a,
+.onSaleMen__items__container .onSaleMen__items a,
+.onSaleWomen__items__container .onSaleWomen__items a {
     color: var(--black);
     text-decoration: none;
 }
@@ -519,14 +565,17 @@ section {
 .women__items .women__item__image,
 .men__bs__items .men__bs__item__image,
 .head__wear__items .head__wear__item__image,
-.men__rs__items .men__rs__item__image,
+.menRs__items .menRs__item__image,
 .women__rs__items .women__rs__item__image,
 .personal__care__items .personal__care__item__image,
 .on__sale__items .on__sale__item__image,
 .featCollection__items .featCollection__item__image,
 .menRunningTop__items .menRunningTop__item__image,
 .womenBoardshort2021__items .womenBoardshort2021__item__image,
-.bestSelling__prod__items .bestSelling__prod__item__image {
+.bestSelling__prod__items .bestSelling__prod__item__image,
+.runnerCap__items .runnerCap__item__image,
+.onSaleMen__items .onSaleMen__item__image,
+.onSaleWomen__items .onSaleWomen__item__image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -537,14 +586,17 @@ section {
 .women__items .women__item__overlay,
 .men__bs__items .men__bs__item__overlay,
 .head__wear__items .head__wear__item__overlay,
-.men__rs__items .men__rs__item__overlay,
+.menRs__items .menRs__item__overlay,
 .women__rs__items .women__rs__item__overlay,
 .personal__care__items .personal__care__item__overlay,
 .on__sale__items .on__sale__item__overlay,
 .featCollection__items .featColletion__item__overlay,
 .menRunningTop__items .menRunningTop__item__overlay,
 .womenBoardshort2021__items .womenBoardshort2021__item__overlay,
-.bestSelling__prod__items .bestSelling__prod__item__overlay {
+.bestSelling__prod__items .bestSelling__prod__item__overlay,
+.runnerCap__items .runnerCap__item__overlay,
+.onSaleMen__items .onSaleMen__item__overlay,
+.onSaleWomen__items .onSaleWomen__item__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -561,14 +613,17 @@ section {
 .women__items .women__item__image:hover .women__item__overlay,
 .men__bs__items .men__bs__item__image:hover .men__bs__item__overlay, 
 .head__wear__items .head__wear__item__image:hover .head__wear__item__overlay,
-.men__rs__items .men__rs__item__image:hover .men__rs__item__overlay,
+.menRs__items .menRs__item__image:hover .menRs__item__overlay,
 .women__rs__items .women__rs__item__image:hover .women__rs__item__overlay,
 .personal__care__items .personal__care__item__image:hover .personal__care__item__overlay,
 .on__sale__items .on__sale__item__image:hover .on__sale__item__overlay,
 .featCollection__items .featCollection__item__image:hover .featColletion__item__overlay,
 .menRunningTop__items .menRunningTop__item__image:hover .menRunningTop__item__overlay,
 .womenBoardshort2021__items .womenBoardshort2021__item__image:hover .womenBoardshort2021__item__overlay,
-.bestSelling__prod__items .bestSelling__prod__item__image:hover .bestSelling__prod__item__overlay {
+.bestSelling__prod__items .bestSelling__prod__item__image:hover .bestSelling__prod__item__overlay,
+.runnerCap__items .runnerCap__item__image:hover .runnerCap__item__overlay,
+.onSaleMen__items .onSaleMen__item__image:hover .onSaleMen__item__overlay,
+.onSaleWomen__items .onSaleWomen__item__image:hover .onSaleWomen__item__overlay {
     opacity: 0.1;
 }
 
@@ -576,14 +631,17 @@ section {
 .women__items .women__item__image img,
 .men__bs__items .men__bs__item__image img,
 .head__wear__items .head__wear__item__image img,
-.men__rs__items .men__rs__item__image img,
+.menRs__items .menRs__item__image img,
 .women__rs__items .women__rs__item__image img,
 .personal__care__items .personal__care__item__image img,
 .on__sale__items .on__sale__item__image img,
 .featCollection__items .featCollection__item__image img,
 .menRunningTop__items .menRunningTop__item__image img,
 .womenBoardshort2021__items .womenBoardshort2021__item__image img,
-.bestSelling__prod__items .bestSelling__prod__item__image img { 
+.bestSelling__prod__items .bestSelling__prod__item__image img,
+.runnerCap__items .runnerCap__item__image img,
+.onSaleMen__items .onSaleMen__item__image img,
+.onSaleWomen__items .onSaleWomen__item__image img { 
     height: 250px;
     object-fit: fill;
 }
@@ -596,8 +654,8 @@ section {
 .men__bs__items .men__bs__item__price,
 .head__wear__items .head__wear__item__name,
 .head__wear__items .head__wear__item__price,
-.men__rs__items .men__rs__item__name,
-.men__rs__items .men__rs__item__price,
+.menRs__items .menRs__item__name,
+.menRs__items .menRs__item__price,
 .women__rs__items .women__rs__item__name,
 .women__rs__items .women__rs__item__price,
 .personal__care__items .personal__care__item__name,
@@ -611,7 +669,13 @@ section {
 .womenBoardshort2021__items .womenBoardshort2021__item__name,
 .womenBoardshort2021__items .womenBoardshort2021__item__price,
 .bestSelling__prod__items .bestSelling__prod__item__name,
-.bestSelling__prod__items .bestSelling__prod__item__price {
+.bestSelling__prod__items .bestSelling__prod__item__price,
+.runnerCap__items .runnerCap__item__name,
+.runnerCap__items .runnerCap__item__price,
+.onSaleMen__items .onSaleMen__item__name,
+.onSaleMen__items .onSaleMen__item__price,
+.onSaleWomen__items .onSaleWomen__item__name,
+.onSaleWomen__items .onSaleWomen__item__price {
     display: flex;
     width: 100%;
     height: auto;
@@ -622,14 +686,17 @@ section {
 .women__items .women__item__name h4,
 .men__bs__items .men__bs__item__name h4,
 .head__wear__items .head__wear__item__name h4,
-.men__rs__items .men__rs__item__name h4,
+.menRs__items .menRs__item__name h4,
 .women__rs__items .women__rs__item__name h4,
 .personal__care__items .personal__care__item__name h4,
 .on__sale__items .on__sale__item__name h4,
 .featCollection__items .featCollection__item__name h4,
 .menRunningTop__items .menRunningTop__item__name h4,
 .womenBoardshort2021__items .womenBoardshort2021__item__name h4,
-.bestSelling__prod__items .bestSelling__prod__item__name h4 {
+.bestSelling__prod__items .bestSelling__prod__item__name h4,
+.runnerCap__items .runnerCap__item__name h4,
+.onSaleMen__items .onSaleMen__item__name h4,
+.onSaleWomen__items .onSaleWomen__item__name h4 {
     font-size: 15px;
     font-family: var(--primaryFont);
     font-weight: 500;
@@ -640,14 +707,17 @@ section {
 .women__items .women__item__price h3,
 .men__bs__items .men__bs__item__price h3,
 .head__wear__items .head__wear__item__price h3,
-.men__rs__items .men__rs__item__price h3,
+.menRs__items .menRs__item__price h3,
 .women__rs__items .women__rs__item__price h3,
 .personal__care__items .personal__care__item__price h3,
 .on__sale__items .on__sale__item__price h3,
 .featCollection__items, .featCollection__item__price h3,
 .menRunningTop__items .menRunningTop__item__price h3,
 .womenBoardshort2021__items .womenBoardshort2021__item__price h3,
-.bestSelling__prod__items .bestSelling__prod__item__price h3 {
+.bestSelling__prod__items .bestSelling__prod__item__price h3,
+.runnerCap__items .runnerCap__item__price h3,
+.onSaleMen__items .onSaleMen__item__price h3,
+.onSaleWomen__items .onSaleWomen__item__price h3 {
     font-size: 16px;
     font-family: var(--primaryFont);
     font-weight: 700;
@@ -657,13 +727,15 @@ section {
 .women__items .women__save__item,
 .men__bs__items .men__bs__save__item,
 .head__wear__items .head__wear__save__item,
-.men__rs__items .men__rs__save__item,
+.menRs__items .menRs__save__item,
 .women__rs__items .women__rs__save__item,
 .personal__care__items .personal__care__save__item,
 .on__sale__items .on__sale__save__item,
 .featCollection__items .featCollection__save__item,
 .menRunningTop__items .menRunningTop__save__item,
-.bestSelling__prod__items .bestSelling__prod__save__item {
+.bestSelling__prod__items .bestSelling__prod__save__item,
+.onSaleMen__items .onSaleMen__save__item,
+.onSaleWomen__items .onSaleWomen__save__item {
     display: inline-block;
     margin: 15px 0px 0px 0px;
 }
@@ -672,13 +744,15 @@ section {
 .women__items .women__save__item h4,
 .men__bs__items .men__bs__save__item h4,
 .head__wear__items .head__wear__save__item h4,
-.men__rs__items .men__rs__save__item h4,
+.menRs__items .menRs__save__item h4,
 .women__rs__items .women__rs__save__item h4,
 .personal__care__items .personal__care__save__item h4,
 .on__sale__items .on__sale__save__item h4,
 .featCollection__items .featCollection__save__item h4,
 .menRunningTop__items .menRunningTop__save__item h4,
-.bestSelling__prod__items .bestSelling__prod__save__item h4 {
+.bestSelling__prod__items .bestSelling__prod__save__item h4,
+.onSaleMen__items .onSaleMen__save__item h4,
+.onSaleWomen__items .onSaleWomen__save__item h4 {
     padding: 5px;
     font-size: 14px;
     font-family: var(--primaryFont);
@@ -821,6 +895,9 @@ section {
         width: 85%;
         height: 100%;
     }
+    main {
+        min-height: 100vh;
+    }
     .header__container {
         display: flex;
         flex-direction: column;
@@ -922,14 +999,17 @@ section {
     .womens__pat,
     .mens__bs__pat,
     .head__wear__pat,
-    .men__running__shorts__pat,
+    .menRs__pat,
     .women__running__shorts__pat,
     .on__sale__pat,
     .personal__care__pat,
     .featCollection__pat,
     .menRunningTop__pat,
     .womensBoardshort2021__pat,
-    .bestSelling__prod__pat {
+    .bestSelling__prod__pat,
+    .runnerCap__pat,
+    .onSaleMen__pat,
+    .onSaleWomen__pat {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -938,14 +1018,17 @@ section {
     .women__boardshort__container,
     .men__boardshort__container,
     .head__wear__container,
-    .men__running__shorts__container,
+    .menRs__container,
     .women__running__shorts__container,
     .on__sale__container,
     .personal__care__container,
     .featCollection__container,
     .menRunningTop__container,
     .womenBoardshort__2021__container,
-    .bestSelling__prod__container {
+    .bestSelling__prod__container,
+    .runnerCap__container,
+    .onSaleMen__container,
+    .onSaleWomen__container {
         display: flex;
         flex-direction: column;
     }
@@ -953,14 +1036,17 @@ section {
     .women__boardshort__container .women__boardshort__categ,
     .men__boardshort__container .men__boardshort__categ,
     .head__wear__container .head__wear__categ,
-    .men__running__shorts__container .men__running__shorts__categ,
+    .menRs__container .menRs__categ,
     .women__running__shorts__container .women__running__shorts__categ,
     .on__sale__container .on__sale__categ,
     .personal__care__container .personal__care__categ,
     .featCollection__container .featCollection__categ,
     .menRunningTop__container .menRunningTop__categ,
     .womenBoardshort__2021__container .womenBoardshort__2021__categ,
-    .bestSelling__prod__container .bestSelling__prod__categ {
+    .bestSelling__prod__container .bestSelling__prod__categ,
+    .runnerCap__container .runnerCap__categ,
+    .onSaleMen__container .onSaleMen__categ,
+    .onSaleWomen__container .onSaleWomen__categ {
         display: none;
     }
 
@@ -968,14 +1054,16 @@ section {
     .women__boardshort__container .women__bs__categ__active,
     .men__shirt__container .men__shirt__categ__active,
     .head__wear__container .head__wear__categ__active,
-    .men__running__shorts__container .men__running__shorts__categ__active,
+    .menRs__container .menRs__categ__active,
     .women__running__shorts__container .women__running__shorts__categ__active,
     .on__sale__container .on__sale__categ__active,
     .personal__care__container .personal__care__active,
     .featCollection__container .featCollection__active,
     .menRunningTop__container .menRunningTop__active,
     .womenBoardshort__2021__container .womenBoardshort2021__categ__active,
-    .bestSelling__prod__container .bestSelling__categ__active {
+    .bestSelling__prod__container .bestSelling__categ__active,
+    .onSaleMen__container .onSaleMen__categ__active,
+    .onSaleWomen__container .onSaleWomen__categ__active {
         position: relative;
         display: block;
     }
@@ -984,14 +1072,17 @@ section {
     .women__boardshort__container .desc__header,
     .men__boardshort__container .desc__header,
     .head__wear__container .desc__header,
-    .men__running__shorts__container .desc__header,
+    .menRs__container .desc__header,
     .women__running__shorts__container .desc__header,
     .on__sale__container .desc__header,
     .personal__care__container .desc__header,
     .featCollection__container .desc__header,
     .menRunningTop__container .desc__header,
     .womenBoardshort__2021__container .desc__header,
-    .bestSelling__prod__container .desc__header {
+    .bestSelling__prod__container .desc__header,
+    .runnerCap__container .desc__header,
+    .onSaleMen__container .desc__header,
+    .onSaleWomen__container .desc__header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1033,14 +1124,17 @@ section {
     .women__boardshort__container .women__items__container,
     .men__boardshort__container .men__bs__items__container,
     .head__wear__container .head__wear__items__container,
-    .men__running__shorts__container .men__rs__items__container,
+    .menRs__container .menRs__items__container,
     .women__running__shorts__container .women__rs__items__container,
     .on__sale__container .on__sale__items__container,
     .personal__care__container .personal__care__items__container,
     .featCollection__container .featCollection__items__container,
     .menRunningTop__container .menRunningTop__items__container,
     .womenBoardshort__2021__container .womenBoardshort2021__items__container,
-    .bestSelling__prod__container .bestSelling__prod__items__container {
+    .bestSelling__prod__container .bestSelling__prod__items__container,
+    .runnerCap__container .runnerCap__items__container,
+    .onSaleMen__container .onSaleMen__items__container,
+    .onSaleWomen__container .onSaleWomen__items__container {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1052,14 +1146,17 @@ section {
     .women__items .women__item__image,
     .men__bs__items .men__bs__item__image,
     .head__wear__items .head__wear__item__image,
-    .men__rs__items .men__rs__item__image,
+    .menRs__items .menRs__item__image,
     .women__rs__items .women__rs__item__image,
     .on__sale__items .on__sale__item__image,
     .personal__care__items .personal__care__item__image,
     .featCollection__items .featCollection__item__image,
     .menRunningTop__items .menRunningTop__item__image,
     .womenBoardshort2021__items .womenBoardshort2021__item__image,
-    .bestSelling__prod__items .bestSelling__prod__item__image {
+    .bestSelling__prod__items .bestSelling__prod__item__image,
+    .runnerCap__items .runnerCap__item__image,
+    .onSaleMen__items .onSaleMen__item__image,
+    .onSaleWomen__items .onSaleWomen__item__image {
         width: 100%;
         height: auto;
     }
@@ -1067,7 +1164,7 @@ section {
     .women__items .women__item__image img,
     .men__bs__items .men__bs__item__image img,
     .head__wear__items .head__wear__item__image img,
-    .men__rs__items .men__rs__item__image img,
+    .menRs__items .menRs__item__image img,
     .women__rs__items .women__rs__item__image img,
     .on__sale__items .on__sale__item__image img,
     .personal__care__items .personal__care__item__image img,
@@ -1075,7 +1172,10 @@ section {
     .menRunningTop__items .menRunningTop__item__image img,
     .womenBoardshort2021__items .womenBoardshort2021__item__image img,
     .womenBoardshort2021__items .womenBoardshort2021__item__image img,
-    .bestSelling__prod__items .bestSelling__prod__item__image img {
+    .bestSelling__prod__items .bestSelling__prod__item__image img,
+    .runnerCap__items .runnerCap__item__image img,
+    .onSaleMen__items .onSaleMen__item__image img,
+    .onSaleWomen__items .onSaleWomen__item__image img {
        width: 100%;
        height: auto;
     }
@@ -1083,7 +1183,7 @@ section {
     .women__items .women__item__overlay,
     .men__bs__items .men__bs__item__overlay,
     .head__wear__items .head__wear__item__overlay,
-    .men__rs__items .men___rs__item__overlay,
+    .menRs__items .menRs__item__overlay,
     .women__rs__items .women__rs__item__overlay,
     .on__sale__items .on__sale__item__overlay,
     .persona__care__items .personal__care__item__overlay,
@@ -1105,7 +1205,7 @@ section {
     .women__items .women__item__image:hover .women__item__overlay,
     .men__bs__items .men__bs__item__image:hover .men__bs__item__overlay,
     .head__wear__items .head__wear__item__image:hover .head__wear__item__overlay,
-    .men__rs__items .men__rs__item__image:hover .men__rs__item__overlay,
+    .menRs__items .men__rs__item__image:hover .menRs__item__overlay,
     .women__rs__items .women__rs__item__image:hover .women__rs__item__overlay,
     .on__sale__items .on__sale__item__image:hover .on__sale__item__overlay,
     .personal__care__items .personal__care__item__image:hover .personal__care__item__overlay,
@@ -1122,14 +1222,17 @@ section {
     .women__items .women__item__name h4,
     .men__bs__items .men__bs__item__name h4,
     .head__wear__items .head__wear__item__name h4,
-    .men__rs__items .men__rs__item__name h4,
+    .menRs__items .menRs__item__name h4,
     .women__rs__items .women__rs__item__name h4,
     .on__sale__items .on__sale__item__name h4,
     .personal__care__items .personal__care__item__name h4,
     .featCollection__items .featCollection__item__name h4,
     .menRunningTop__items .menRunningTop__item__name h4,
     .womenBoardshort2021__items .womenBoardshort2021__item__name h4,
-    .bestSelling__prod__items .bestSelling__prod__item__name h4 {
+    .bestSelling__prod__items .bestSelling__prod__item__name h4,
+    .runnerCap__items .runnerCap__item__name h4,
+    .onSaleMen__items .onSaleMen__item__name h4,
+    .onSaleWomen__items .onSaleWomen__item__name h4 {
         font-size: 13px;
         font-family: var(--primaryFont);
         font-weight: 500;
@@ -1139,14 +1242,17 @@ section {
     .women__items .women__item__price h3,
     .men__bs__items .men__bs__item__price h3,
     .head__wear__items .head__wear__item__price h3,
-    .men__rs__items .men__rs__item__price h3,
+    .menRs__items .menRs__item__price h3,
     .women__rs__items .women__rs__item__price h3,
     .on__sale__items .on__sale__item__price h3,
     .personal__care__items .personal__care__item__price h3,
     .featCollection__items .featCollection__item__price h3,
     .menRunningTop__items .menRunningTop__item__price h3,
     .womenBoardshort2021__items .womenBoardshort2021__item__price h3,
-    .bestSelling__prod__items .bestSelling__prod__item__price h3 {
+    .bestSelling__prod__items .bestSelling__prod__item__price h3,
+    .runnerCap__items .runnerCap__item__price h3,
+    .onSaleMen__items .onSaleMen__item__price h3,
+    .onSaleWomen__items .onSaleWomen__item__price h3 {
         font-size: 16px;
         font-family: var(--primaryFont);
         font-weight: 700;
@@ -1155,26 +1261,30 @@ section {
     .women__items .women__save__item,
     .men__bs__items .men__bs__save__item,
     .head__wear__items .head__wear__save__item,
-    .men__rs__items .men__rs__item__save__item,
+    .menRs__items .menRs__item__save__item,
     .women__rs__items .women__rs__item__save__item,
     .on__sale__items .on__sale__save__item,
     .personal__care__items .personal__care__save__item,
     .featCollection__items .featCollection__save__item,
     .menRunningTop__items .menRunningTop__save__item,
-    .bestSelling__prod__items .bestSelling__prod__save__item {
+    .bestSelling__prod__items .bestSelling__prod__save__item,
+    .onSaleMen__items .onSaleMen__save__item,
+    .onSaleWomen__items .onSaleWomen__save__item {
         margin: 15px 0px;
     }
     .men__items .men__save__item h4,
     .women__items .women__save__item h4,
     .men__bs__items .men__bs__save__item h4,
     .head__wear__items .head__wear__save__item h4,
-    .men__rs__items .men__rs__save__item h4,
+    .menRs__items .menRs__save__item h4,
     .women__rs__items .women__rs__save__item h4,
     .on__sale__items .on__sale__save__item h4,
     .personal__care__items .personal__care__save__item h4,
     .featCollection__items .featCollection__save__item h4,
     .menRunningTop__items .menRunningTop__save__item h4,
-    .bestSelling__prod__items .bestSelling__prod__save__item h4 {
+    .bestSelling__prod__items .bestSelling__prod__save__item h4,
+    .onSaleMen__items .onSaleMen__save__item h4,
+    .onSaleWomen__items .onSaleWomen__save__item h4 {
         padding: 3px;
         font-size: 12px;
         font-family: var(--primaryFont);
@@ -1215,6 +1325,9 @@ section {
     section {
         width: 90%;
         height: 100%;
+    }
+    main {
+        min-height: 100vh;
     }
     .header__container {
         flex-direction: column;
@@ -1266,6 +1379,7 @@ section {
     }
     main {
         margin: 50px 0px 0px 0px;
+        min-height: 100vh;
     }
     .nav {
         position: absolute;
@@ -1317,14 +1431,17 @@ section {
     .womens__pat,
     .men__bs__pat,
     .head__wear__pat,
-    .men__running__shorts__pat,
+    .menRs__pat,
     .women__running__shorts__pat,
     .on___sale__pat,
     .persona__care__pat,
     .featCollection__pat,
     .menRunningTop__pat,
     .womensBoardshort2021__pat,
-    .bestSelling__prod__pat {
+    .bestSelling__prod__pat,
+    .runnerCap__pat,
+    .onSaleMen__pat,
+    .onSaleWomen__pat {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -1333,14 +1450,17 @@ section {
     .women__boardshort__container,
     .men__boardshort__container,
     .head__wear__container,
-    .men__running__shorts__container,
+    .menRs__container,
     .women__running__shorts__container,
     .on__sale__container,
     .personal__care__container,
     .featCollection__container,
     .menRunningTop__container,
     .womenBoardshort__2021__container,
-    .bestSelling__prod__container {
+    .bestSelling__prod__container,
+    .runnerCap__container,
+    .onSaleMen__container,
+    .onSaleWomen__container {
         display: flex;
         flex-direction: column;
     }
@@ -1348,28 +1468,33 @@ section {
     .women__boardshort__container .women__boardshort__categ,
     .men__boardshort__container .men__boardshort__categ,
     .head__wear__container .head__wear__categ,
-    .men__running__shorts__container .men__running__shorts__categ,
+    .menRs__container .menRs__categ,
     .women__running__shorts__container .women__running__shorts__categ,
     .on__sale__container .on__sale__categ,
     .personal__care__container .personal__care__categ,
     .featCollection__container .featCollection__categ,
     .menRunningTop__container .menRunningTop__categ,
     .womenBoardshort__2021__container .womenBoardshort__2021__categ,
-    .bestSelling__prod__container .bestSelling__prod__categ {
+    .bestSelling__prod__container .bestSelling__prod__categ,
+    .runnerCap__container .runnerCap__categ,
+    .onSaleMen__container .onSaleMen__categ,
+    .onSaleWomen__container .onSaleWomen__categ {
         display: none;
     }
     .men__boardshort__container .men__bs__categ__active,
     .women__boardshort__container .women__bs__categ__active,
     .men__shirt__container .men__shirt__categ__active,
     .head__wear__container .head__wear__categ__active,
-    .men__running__shorts__container .men__running__shorts__categ__active,
+    .menRs__container .menRs__categ__active,
     .women__running__shorts__container .women__running__shorts__categ__active,
     .on__sale__container .on__sale__categ__active,
     .personal__care__container .personal__care__active,
     .featCollection__container .featCollection__active,
     .menRunningTop__container .menRunningTop__active,
     .womenBoardshort__2021__container .womenBoardshort2021__categ__active,
-    .bestSelling__prod__container .bestSelling__prod__categ__active {
+    .bestSelling__prod__container .bestSelling__prod__categ__active,
+    .onSaleMen__container .onSaleMen__categ__active,
+    .onSaleWomen__container .onSaleWomen__categ__active {
         position: relative;
         display: block;
     }
@@ -1377,13 +1502,16 @@ section {
     .women__boardshort__container .desc__header,
     .men__boardshort__container .desc__header,
     .head__wear__container .desc__header,
-    .men__running__shorts__container .desc__header,
+    .menRs__container .desc__header,
     .on__sale__container .desc__header,
     .personal__care__container .desc__header,
     .featCollection__container .desc__header,
     .menRunningTop__container .desc__header,
     .womenBoardshort__2021__container .desc__header,
-    .bestSelling__prod__container .desc__header {
+    .bestSelling__prod__container .desc__header,
+    .runnerCap__container .desc__header,
+    .onSaleMen__container .desc__header,
+    .onSaleWomen__container .desc__header {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1419,28 +1547,34 @@ section {
     .women__boardshort__container .women__items__container,
     .men__boardshort__container .men__bs__items__container,
     .head__wear__container .head__wear__items__container,
-    .men__running__shorts__container .men__rs__items__container,
+    .menRs__container .menRs__items__container,
     .women__running__shorts__container .women__rs__items__container,
     .on__sale__container .on__sale__items__container,
     .personal__care__container .personal__care__items__container,
     .featCollection__container .featCollection__items__container,
     .menRunningTop__container .menRunningTop__items__container,
     .womenBoardshort__2021__container .womenBoardshort2021__items__container,
-    .bestSelling__prod__container .bestSelling__prod__items__container {
+    .bestSelling__prod__container .bestSelling__prod__items__container,
+    .runnerCap__container .runnerCap__items__container,
+    .onSaleMen__container .onSaleMen__items__container,
+    .onSaleWomen__container .onSaleWomen__items__container {
         grid-gap: 30px;
     }
     .men__items .men__item__image,
     .women__items .women__item__image,
     .men__bs__items .men__bs__item__image,
     .head__wear__items .head__wear__item__image,
-    .men__rs__items .men__rs__item__image,
+    .menRs__items .menRs__item__image,
     .women__rs__items .women__rs__item__image,
     .on__sale__items .on__sale__item__image,
     .personal__care__items .personal__care__item__image,
     .featCollection__items .featCollection__item__image,
     .menRunninTop__items .menRunningTop__item__image,
     .womenBoardshort2021__items .womenBoardshort2021__item__image,
-    .bestSelling__prod__items .bestSelling__item__image {
+    .bestSelling__prod__items .bestSelling__item__image,
+    .runnerCap__items .runnerCap__item__image,
+    .onSaleMen__items .onSaleMen__item__image,
+    .onSaleWomen__items .onSaleWomen__item__image {
         width: 100%;
         height: auto;
     }
@@ -1448,14 +1582,17 @@ section {
     .women__items .women__item__image img,
     .men__bs__items .men__bs__item__image img,
     .head__wear__items .head__wear__item__image img,
-    .men__rs__items .men__rs__item__image img,
+    .menRs__items .menRs__item__image img,
     .women__rs__items .women__rs__item__image img,
     .on__sale__items .on__sale__item__image img,
     .personal__care__items .personal__care__item__image img,
     .featCollection__items .featCollection__item__image img,
     .menRunningTop__items .menRunningTop__item__image img,
     .womenBoardshort2021__items .womenBoardshort2021__item__image img,
-    .bestSelling__prod__items .bestSelling__prod__item__image img {
+    .bestSelling__prod__items .bestSelling__prod__item__image img,
+    .runnerCap__items .runnerCap__item__image img,
+    .onSaleMen__items .onSaleMen__item__image img,
+    .onSaleWomen__items .onSaleWomen__item__image img {
        width: 100%;
        height: auto;
     }
@@ -1463,7 +1600,7 @@ section {
     .women__items .women__item__overlay,
     .men__bs__items .men__bs__item__overlay,
     .head__wear__items .head__wear__item__overlay,
-    .men__rs__items .men__rs__item__overlay,
+    .menRs__items .menRs__item__overlay,
     .women__rs__items .women__rs__item__overlay,
     .on__sale__items .on__sale__item__overlay,
     .personal__care__items .personal__care__item__overlay,
@@ -1485,7 +1622,7 @@ section {
     .women__items .women__item__image:hover .women__item__overlay,
     .men__bs__items .men__bs__item__image:hover .men__bs__item__overlay,
     .head__wear__items .head__wear__item__image:hover .head__wear__item__overlay,
-    .men__rs__items .men__rs__item__image:hover .men__rs__item__overlay,
+    .menRs__items .menRs__item__image:hover .menRs__item__overlay,
     .women__rs__items .women__rs__item__image:hover .women__rs_item__overlay,
     .on__sale__items .on__sale__item__image:hover .on__sale__item__overlay,
     .personal__care__items .personal__care__item__image .personal__care__item__overlay,
@@ -1502,14 +1639,17 @@ section {
     .women__items .women__item__name h4,
     .men__bs__items .men__bs__item__name h4,
     .head__wear__items .head__wear__item__name h4,
-    .men__rs__items .men__rs__item__name h4,
+    .menRs__items .menRs__item__name h4,
     .women__rs__items .women__rs__item__name h4,
     .on__sale__items .on__sale__item__name h4,
     .personal__care__items .personal__care__item__name h4,
     .featCollection__items .featCollection__item__name h4,
     .menRunningTop__items .menRunningTop__item__name h4,
     .womenBoardshort2021__items .womenBoardshort2021__item__name h4,
-    .bestSelling__prod__items .bestSelling__prod__item__name h4 {
+    .bestSelling__prod__items .bestSelling__prod__item__name h4,
+    .runnerCap__items .runnerCap__item__name h4,
+    .onSaleMen__items .onSaleMen__item__name h4,
+    .onSaleWomen__items .onSaleWomen__item__name h4 {
         font-size: 15px;
         font-family: var(--primaryFont);
         font-weight: 500;
@@ -1519,14 +1659,17 @@ section {
     .women__items .women__item__price h3,
     .men__bs__items .men__bs__item__price h3,
     .head__wear__items .head__wear__item__price h3,
-    .men__rs__items .men__rs__item__price h3,
+    .menRs__items .menRs__item__price h3,
     .women__rs__items .women__rs__item__price h3,
     .on__sale__items .on__sale__item__price h3,
     .personal__care__items .personal__care__item__price h3,
     .featCollection__items .featCollection__item__price h3,
     .menRunningTop__items .menRunningTop__item__price h3,
     .womenBoardshort2021__items .womenBoardshort2021__item__price h3,
-    .bestSelling__prod__items .bestSelling__prod__item__price h3 {
+    .bestSelling__prod__items .bestSelling__prod__item__price h3,
+    .runnerCap__items .runnerCap__item__price h3,
+    .onSaleMen__items .onSaleMen__item__price h3,
+    .onSaleWomen__items .onSaleWomen__item__price h3 {
         font-size: 18px;
         font-family: var(--primaryFont);
         font-weight: 700;
@@ -1535,13 +1678,15 @@ section {
     .women__items .women__save__item,
     .men__bs__items .men__bs__save__item,
     .head__wear__items .head__wear__save__item,
-    .men__rs__items .men__rs__save__item,
+    .menRs__items .menRs__save__item,
     .women__rs__items .women__rs__save__item,
     .on__sale__items .on__sale__save__item,
     .personal__care__items .persona__care__save__item,
     .featCollection__items .featCollection__save__item,
     .menRunningTop__items .menRunningTop__save__item,
-    .bestSelling__prod__items .bestSelling__prod__save__item {
+    .bestSelling__prod__items .bestSelling__prod__save__item,
+    .onSaleMen__items .onSaleMen__save__item,
+    .onSaleWomen__items .onSaleWomen__save__item {
         display: inline-block;
         margin: 15px 0px 0px 0px;
     }
@@ -1549,13 +1694,15 @@ section {
     .women__items .women__save__item h4,
     .men__bs__items .men__bs__save__item h4,
     .head__wear__items .head__wear__save__item h4,
-    .men__rs__items .men__rs__save__item h4,
+    .menRs__items .menRs__save__item h4,
     .women__rs__items .women__rs__save__item h4,
     .on__sale__items .on__sale__save__item h4,
     .persona__care__items .personal__care__save__item h4,
     .featCollection__items .featCollection__save__item h4,
     .menRunningTop__items .menRunningTop__save__item h4,
-    .bestSelling__prod__items .bestSelling__prod__save__item h4 {
+    .bestSelling__prod__items .bestSelling__prod__save__item h4,
+    .onSaleMen__items .onSaleMen__save__item h4,
+    .onSaleWomen__items .onSaleWomen__save__item h4 {
         padding: 5px;
         font-size: 14px;
         font-family: var(--primaryFont);
@@ -1592,7 +1739,9 @@ section {
         width: 90%;
         height: auto;
     }
-    
+    main {
+        min-height: 100vh;
+    }
     .container {
         width: 100%;
         height: 100%;
@@ -1639,14 +1788,17 @@ section {
     .women__boardshort__container, 
     .men__boardshort__container,
     .head__wear__container,
-    .men__running__shorts__container,
+    .menRs__container,
     .women__running__shorts__container,
     .on__sale__container,
     .personal__care__container,
     .featCollection__container,
     .menRunningTop__container,
     .womenBoardshort__2021__container,
-    .bestSelling__prod__container {
+    .bestSelling__prod__container,
+    .runnerCap__container,
+    .onSaleMen__container,
+    .onSaleWomen__container {
         display: flex;
         flex-direction: row;
     }
@@ -1654,28 +1806,34 @@ section {
     .women__boardshort__container .women__boardshort__categ,
     .men__boardshort__container .men__boardshort__categ,
     .head__wear__container .head__wear__categ,
-    .men__running__shorts__container .men__running__shorts__categ,
+    .menRs__container .menRs__categ,
     .women__running__shorts__container .women__running__shorts__categ,
     .on__sale__container .on__sale__categ,
     .personal__care__container .personal__care__categ,
     .featCollection__container .featCollection__categ,
     .menRunningTop__container .menRunningTop__categ,
     .womenBoardshort__2021__container .womenBoardshort__2021__categ,
-    .bestSelling__prod__container .bestSelling__prod__categ {
+    .bestSelling__prod__container .bestSelling__prod__categ,
+    .runnerCap__container .runnerCap__categ,
+    .onSaleMen__container .onSaleMen__categ,
+    .onSaleWomen__container .onSaleWomen__categ {
         display: block;
     } 
     .men__shirt__container .desc__header,
     .women__boardshort__container .desc__header,
     .men__boardshort__container .desc__header,
     .head__wear__container .desc__header,
-    .men__running__shorts__container .desc__header,
+    .menRs__container .desc__header,
     .women__running__shorts__container .desc__header,
     .on__sale__container .desc__header,
     .personal__care__container .desc__header,
     .featCollection__container .desc__header,
     .menRunningTop__container .desc__header,
     .womenBoardshort__2021__container .desc__header,
-    .bestSelling__prod__container .desc__header {
+    .bestSelling__prod__container .desc__header,
+    .runnerCap__container .desc__header,
+    .onSaleMen__container .desc__header,
+    .onSaleWomen__container .desc__header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
