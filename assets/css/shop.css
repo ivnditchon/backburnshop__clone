@@ -286,28 +286,6 @@ main {
     margin: 0px 10px;
 }
 
-.mens__pat span,
-.womens__pat span,
-.mens__bs__pat span,
-.head__wear__pat span,
-.menRs__pat span,
-.women__running__shorts__pat span,
-.personal__care__pat span,
-.on__sale__pat span,
-.featCollection__pat span,
-.menRunningTop__pat span,
-.womensBoardshort2021__pat span,
-.bestSelling__prod__pat span,
-.runnerCap__pat span,
-.onSaleMen__pat span,
-.onSaleWomen__pat span {
-    font-size: 14px;
-    font-weight: 500;
-    font-family: var(--primaryFont);
-    text-transform: capitalize;
-    text-decoration: none;
-    color: var(--black);
-}
 /* Product Container */
 .men__shirt__container,
 .women__boardshort__container,

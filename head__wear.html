@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/shop.css">
-        <script src="assets/js/shop.js" type="text/javascript"></script>
+        <script src="assets/js/items.js" defer></script>
         <link rel="icon" type="image/jpg" href="assets/images/logo.jpg">
     </head>
     <body>
@@ -163,10 +163,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="head__wear__pat">
+                    <div class="head__wear__pat" id="pat">
                         <a href="index.html">home</a>
                         <img src="assets/images/keyboard_arrow_right.svg" alt="Keyboard arrow right">
-                        <span>head wear</span>
+                        <a href="head__wear.html">head wear</a>
                     </div>
                     <!-- Head Wear Container -->
                     <div class="head__wear__container">
@@ -203,7 +203,7 @@
                         </div>
                         <div class="head__wear__desc">
                             <div class="desc__header">
-                                <div class="desc__header__left">
+                                <div class="desc__header__left" id="desc__header__left">
                                     <h2>head wear</h2>
                                 </div>
                                 <div class="desc__header__right">
@@ -233,215 +233,185 @@
                             </div>
                             <!-- Head wear items image and description -->
                             <div class="head__wear__items__container">
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-001_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>back burn lifestyle trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-001_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>back burn lifestyle trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-001BLU_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>back burn lifestyle trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-001BLU_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>back burn lifestyle trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-001WHT_9fc1f1db-2344-4320-8bda-35b7314978e2_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>back burn lifestyle trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-001WHT_9fc1f1db-2344-4320-8bda-35b7314978e2_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>back burn lifestyle trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-005_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>stay chill trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-005_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="image">
+                                        <h4>stay chill trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-004_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>surf pilipinas trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-004_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>surf pilipinas trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPNS-003_9a292cd1-f92e-440d-a0c4-4d1e988bd014_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>surf pilipinas trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2020CAPNS-003_9a292cd1-f92e-440d-a0c4-4d1e988bd014_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>surf pilipinas trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPNS-002_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2020CAPNS-002_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPNS-001_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2020CAPNS-001_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-003_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>tropical state of mind trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-003_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>tropical state of mind trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-002GRY_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-002GRY_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-002BLU_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-002BLU_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2019CAPNS-002NBGRY_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn trucker cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2019CAPNS-002NBGRY_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn trucker cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPR-001REFLECT_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn runner cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2020CAPR-001REFLECT_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn runner cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPR-001PINK_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn runner cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image" id="image">
+                                        <img src="assets/images/head__wear/2020CAPR-001PINK_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn runner cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
-                                <div class="head__wear__items">
-                                    <a href="#">
-                                        <div class="head__wear__item__image">
-                                            <img src="assets/images/head__wear/2020CAPR-001nblue_360x.png" alt="Item">
-                                            <div class="head__wear__item__overlay"></div>
-                                        </div>
-                                        <div class="head__wear__item__name">
-                                            <h4>backburn runner cap</h4>
-                                        </div>
-                                        <div class="head__wear__item__price">
-                                            <h3>&#8369 299.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="head__wear__items" id="item">
+                                    <div class="head__wear__item__image">
+                                        <img src="assets/images/head__wear/2020CAPR-001nblue_360x.png" alt="Item">
+                                        <div class="head__wear__item__overlay"></div>
+                                    </div>
+                                    <div class="head__wear__item__name" id="name">
+                                        <h4>backburn runner cap</h4>
+                                    </div>
+                                    <div class="head__wear__item__price" id="price">
+                                        <h3>&#8369 299.00</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>

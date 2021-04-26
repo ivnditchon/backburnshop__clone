@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/shop.css">
-        <script src="assets/js/shop.js" type="text/javascript"></script>
+        <script src="assets/js/items.js" defer></script>
         <link rel="icon" type="image/jpg" href="assets/images/logo.jpg">
     </head>
     <body>
@@ -163,10 +163,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="menRs__pat">
+                    <div class="menRs__pat" id="pat">
                         <a href="index.html">home</a>
                         <img src="assets/images/keyboard_arrow_right.svg" alt="Keyboard arrow right">
-                        <span>men's running shorts</span>
+                        <a href="mens__running__shorts.html">men's running shorts</a>
                     </div>
                     <!-- Men's Running Shorts Container -->
                     <div class="menRs__container">
@@ -203,7 +203,7 @@
                         </div>
                         <div class="menRs__desc" id="menRs__desc">
                             <div class="desc__header">
-                                <div class="desc__header__left">
+                                <div class="desc__header__left" id="desc__header__left">
                                     <h2>men's running shorts</h2>
                                 </div>
                                 <div class="desc__header__right">
@@ -233,89 +233,77 @@
                             </div>
                             <!-- Mens runningshorts items image and description -->
                             <div class="menRs__items__container">
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-NGREEN_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-A-NGREEN_360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's ripper running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 399.00</h3>
+                                    </div>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-RBLUE_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-A-RBLUE_360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's ripper running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 399.00</h3>
+                                    </div>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-SILVER_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-A-SILVER_360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's ripper running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 399.00</h3>
+                                    </div>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-A-NBLUE_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's ripper running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-A-NBLUE_360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's ripper running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 399.00</h3>
+                                    </div>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-B-NGREEN._360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's slider running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 389.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-B-NGREEN._360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's slider running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 389.00</h3>
+                                    </div>
                                 </div>
-                                <div class="menRs__items">
-                                    <a href="#">
-                                        <div class="menRs__item__image">
-                                            <img src="assets/images/men__running__shorts/2020MRS-B-SILVER_360x.png" alt="Item">
-                                            <div class="menRs__item__overlay"></div>
-                                        </div>
-                                        <div class="menRs__item__name">
-                                            <h4>men's slider running shorts</h4>
-                                        </div>
-                                        <div class="menRs__item__price">
-                                            <h3>&#8369 399.00</h3>
-                                        </div>
-                                    </a>
+                                <div class="menRs__items" id="item">
+                                    <div class="menRs__item__image" id="image">
+                                        <img src="assets/images/men__running__shorts/2020MRS-B-SILVER_360x.png" alt="Item">
+                                        <div class="menRs__item__overlay"></div>
+                                    </div>
+                                    <div class="menRs__item__name" id="name">
+                                        <h4>men's slider running shorts</h4>
+                                    </div>
+                                    <div class="menRs__item__price" id="price">
+                                        <h3>&#8369 399.00</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>

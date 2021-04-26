@@ -15,5 +15,5 @@ function item() {
 function myFunc() {
         item();
 }
-/*===== INVOKE FUNCTION =====*/
+// INVOKE FUNCTION //
 myFunc();
